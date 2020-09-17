@@ -9,8 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Question 1, 2, 3, or 4?");
-        //int question = scan.nextInt();
-        int question = 4;
+        int question = scan.nextInt();
         if (question == 1){
             System.out.println("Formula is ax + b = c");
             System.out.println("What are 'a', 'b', and 'c'?");
