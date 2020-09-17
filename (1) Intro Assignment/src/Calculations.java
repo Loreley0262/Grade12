@@ -115,17 +115,18 @@ public class Calculations {
     public String questionFour(){
         System.out.println("Question 4: ");
         System.out.printf("Points: (%.1f, %.1f), (%.1f, %.1f)\n", a, b, c, d);
-        double up = Math.abs(d-b);
-        double side = Math.abs(c-a);
-        System.out.println("a^2 + b^2 = c^2\n");
-        System.out.printf("%.1f^2 + %.1f^2 = c^2\n", up, side);
-        double squp = up*up;
-        double sqside = side*side;
-        System.out.printf("%.1f + %.1f = c^2\n", squp, sqside);
-        double tot = squp+sqside;
-        System.out.printf("%.1f = c^2\n", tot);
-        double ans = Math.sqrt(tot);
-        System.out.printf("%.2f = c\n\n", ans);
+        //tangent b/c its opposite and adjacent
+        //direction as in vector? "direction and magnitude"?
+        //formula = tan(theta) = (y2-y1)/(x2-x1)
+        System.out.println("tan(\u03F4) = (y2-y1)/(x2-x1)");
+        System.out.printf("tan(\u03F4) = (%.1f-%.1f)/(%.1f-%.1f)\n", d, b, c, a);
+        double db = d-b;
+        double ca = c-a;
+        System.out.printf("tan(\u03F4) = (%.1f)/(%.1f)\n", db, ca);
+        System.out.printf("\u03F4 = tan^-1[(%.1f)/(%.1f)]\n", db, ca);
+        double aTanned = Math.atan(db/ca);
+        aTanned = Math.toDegrees(aTanned);
+        System.out.printf("\u03F4 = %.3f\n", aTanned);
         return "";
     }
 

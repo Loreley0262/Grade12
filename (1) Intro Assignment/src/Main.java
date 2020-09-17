@@ -42,11 +42,12 @@ public class Main {
             System.out.println(findXthree.questionThree());
         }
         else if (question == 4){
+            System.out.println("Think of 2");
             System.out.println("What are your points? (a,b), (c,d)");
-            double ay = 0;
+            double ay = 3;
             double bee = 0;
-            double see = 0;
-            double dee = 0;
+            double see = 3;
+            double dee = 3;
             Calculations findXfour = new Calculations(ay, bee, see, dee);
             System.out.println(findXfour.questionFour());
         }
