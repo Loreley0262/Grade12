@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Question 1, 2, 3, or 4?");
+        System.out.println("------------------------------");
         int question = scan.nextInt();
         if (question == 1){
             System.out.println("Formula is ax + b = c");
