@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 // 1) solve for 'x' with an expression of ax + b = c where a, b, c are constants
 // 2) Solve for 'x' with an expression of ax2+bx+c=d where a, b, c, d are constants
@@ -27,8 +28,9 @@ public class Main {
             double bee = scan.nextDouble();
             double see = scan.nextDouble();
             double dee = scan.nextDouble();
+
             Calculations findXtwo = new Calculations(ay, bee, see, dee);
-            System.out.println(findXtwo.questionTwo());
+            System.out.println(Arrays.toString(findXtwo.questionTwo()));
         }
 
         else if (question == 3){
@@ -49,6 +51,7 @@ public class Main {
             double dee = 3;
             Calculations findXfour = new Calculations(ay, bee, see, dee);
             System.out.println(findXfour.questionFour());
+            System.out.println("aaaa");
         }
 
 
