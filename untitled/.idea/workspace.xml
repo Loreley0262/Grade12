@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a811771-b0b1-40fd-8231-809e7d28ad40" name="Default Changelist" comment="" />
+    <list default="true" id="8e97f358-a0c7-4cb7-97fc-dc8466d1d2a9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1hsjLWoMRnWBFQqk33Ca1IPOuqS" />
+  <component name="ProjectId" id="1hsl5Jnp4gl6j2pdX0tmuQBNJ0s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,32 +36,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a811771-b0b1-40fd-8231-809e7d28ad40" name="Default Changelist" comment="" />
-      <created>1600806638914</created>
+      <changelist id="8e97f358-a0c7-4cb7-97fc-dc8466d1d2a9" name="Default Changelist" comment="" />
+      <created>1600807497320</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600806638914</updated>
+      <updated>1600807497320</updated>
     </task>
     <servers />
   </component>
@@ -75,20 +58,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1600808155094">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1600807602903">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600808155094" />
-    <state x="200" y="4" key="SettingsEditor" timestamp="1600807130465">
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600807602903" />
+    <state x="102" y="50" key="new project wizard" timestamp="1600807605348">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="200" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600807130465" />
-    <state x="102" y="50" key="new project wizard" timestamp="1600808169640">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1600808169640" />
+    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1600807605348" />
   </component>
 </project>
