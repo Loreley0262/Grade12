@@ -1,5 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello");
+        Vehicle myVehicle = new Car();
+        myVehicle.honk();
+        Motorcycle motor = new Motorcycle(10, new Person(), true);
+        motor.honk();
+
+        if(myVehicle instanceof Car){
+            Car newCar = (Car) myVehicle;
+        }
+        else if (myVehicle instanceof Truck){
+            Truck myTruck = (Truck) myVehicle;
+        }
     }
 }

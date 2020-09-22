@@ -7,9 +7,7 @@ public class Vehicle {
         this.owner = owner;
     }
 
-    Vehicle(){
-        registrationNumber = 0;
-        owner = null;
+    public void honk(){
+        System.out.println("beep ima truck or a car");
     }
-
 }
