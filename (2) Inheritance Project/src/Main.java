@@ -13,3 +13,6 @@ public class Main {
         }
     }
 }
+
+
+// DIAGRAM OPTION (SHOW DIAGRAM) ONLY IN ULTIMATE EDITION, NOT COMMUNITY

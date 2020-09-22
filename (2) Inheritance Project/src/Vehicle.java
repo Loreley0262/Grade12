@@ -7,7 +7,13 @@ public class Vehicle {
         this.owner = owner;
     }
 
+    Vehicle(){                  //SHOULD BE ABLE TO REMOVE DEFAULT CONSTRUCTOR AND STILL WORK, BUT IT DOESN'T
+        registrationNumber = 0;
+        owner = null;
+    }
+
     public void honk(){
         System.out.println("beep ima truck or a car");
     }
+
 }
