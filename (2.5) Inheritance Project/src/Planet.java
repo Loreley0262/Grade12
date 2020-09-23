@@ -3,12 +3,12 @@ import java.util.List;
 
 public class Planet {
     private int orbitTime;
-    private ArrayList<Moon> moons;
+    private ArrayList<Moon> moonList;
     private String designation;
 
     Planet(){
         this.orbitTime = 11111;
-        //this.moons.add()
+        this.moonList = new ArrayList<Moon>();
         this.designation = "planetNaem";
     }
 
@@ -32,16 +32,14 @@ public class Planet {
     }
 
     public List<Moon> getMoons(){
-        return moons;
+        return moonList;
     }
 
     public void add(Moon moon){
-        moons.add(moon);
+
+        moonList.add(moon);
     }
 
-    public void addMoon(Moon moon){
-        moons.add(moon);
-    }
 
 
 
