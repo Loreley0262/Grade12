@@ -21,6 +21,6 @@ public class Motorcycle extends  Vehicle{
     }
 
     public void honk(){
-        System.out.println("vroom motorcycle");
+        System.out.println("motorcycle goes vroom");
     }
 }

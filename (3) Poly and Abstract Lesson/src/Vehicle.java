@@ -16,8 +16,7 @@ public abstract class Vehicle {
         owner = null;
     }
 
-    public void honk(){
-        System.out.println("beep ima truck or a car");
-    }
+    public abstract void honk();
+    //used b/c we want every subclass to have and to override this method
 
 }
