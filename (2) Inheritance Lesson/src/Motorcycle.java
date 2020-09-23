@@ -6,6 +6,17 @@ public class Motorcycle extends  Vehicle{
         this.hasSideCar = hasSideCar;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Motorcycle){
+            Motorcycle other = (Motorcycle) obj;
+            if (this.owner.equals(other.owner)){
+                return true;
+            }
+        }
+        return false;
+    }
+
     public String toString(){
         return "Motorcycle, owner:  " + owner;
     }
