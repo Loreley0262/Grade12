@@ -23,7 +23,6 @@ public class Planet {
     public void setDesignation(String designation) {
         this.designation = designation;
     }
-
     public int getOrbitTime() {
         return orbitTime;
     }
@@ -40,7 +39,10 @@ public class Planet {
         moonList.add(moon);
     }
 
-
-
+    public String toString(){
+        return "Planet orbit time: " + getOrbitTime() + "\nPlanet designation: " + getDesignation() +
+                "\nPlanet moon arraylist: " + moonList;
+    }
+    
 
 }

@@ -3,8 +3,8 @@ public class RockPlanet  extends Planet{
     private boolean habitable;
 
     RockPlanet(int orbitTime, String designation, boolean habitable){
-//        this.orbitTime = orbitTime;
-//        this.designation = designation;
+        setOrbitTime(orbitTime);
+        setDesignation(designation);
         this.habitable = habitable;
     }
 

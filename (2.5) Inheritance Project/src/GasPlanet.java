@@ -5,8 +5,8 @@ public class GasPlanet  extends Planet{
     private Color color;
 
     GasPlanet(int orbitTime, String designation, boolean hasRings, Color color){
-        this.orbitTime = orbitTime;
-        this.designation = designation;
+        setOrbitTime(orbitTime);
+        setDesignation(designation);
         this.hasRings = hasRings;
         this.color = color;
     }
