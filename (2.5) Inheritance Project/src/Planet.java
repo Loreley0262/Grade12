@@ -9,7 +9,7 @@ public class Planet {
     Planet(){
         this.orbitTime = 11111;
         //this.moons.add()
-        this.designation = "myNaemIsInigoMontoya";
+        this.designation = "planetNaem";
     }
 
     Planet(int orbitTime, String designation){
@@ -34,9 +34,14 @@ public class Planet {
     public List<Moon> getMoons(){
         return moons;
     }
-    //    public void addMoon(List<Moon>){
-//        moons.add();
-//    } HEEEELLLLPPP
+
+    public void add(Moon moon){
+        moons.add(moon);
+    }
+
+    public void addMoon(Moon moon){
+        moons.add(moon);
+    }
 
 
 
