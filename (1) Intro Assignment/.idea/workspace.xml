@@ -36,6 +36,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -78,14 +81,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1600808155094">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="556" y="185" key="FileChooserDialogImpl" timestamp="1600821332285">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600808155094" />
+    <state x="556" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600821332285" />
     <state x="200" y="4" key="SettingsEditor" timestamp="1600807130465">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="200" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600807130465" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1600821277297">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600821277297" />
     <state x="102" y="50" key="new project wizard" timestamp="1600808169640">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
