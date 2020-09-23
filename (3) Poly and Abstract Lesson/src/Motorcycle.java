@@ -1,8 +1,7 @@
 public class Motorcycle extends  Vehicle{
     public boolean hasSideCar;
 
-    Motorcycle(int registrationNumber, Person owner, boolean hasSideCar){
-        super(registrationNumber, owner);
+    Motorcycle(boolean hasSideCar){
         this.hasSideCar = hasSideCar;
     }
 

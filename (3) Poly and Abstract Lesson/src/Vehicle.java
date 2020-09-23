@@ -1,4 +1,8 @@
-public class Vehicle {
+
+//an abstract class is like a blueprint for classes below it (like in inheritance)
+// ex you'd never instantiate a vehicle object, just a car truck or motorcycle
+
+public abstract class Vehicle {
     public int registrationNumber;
     public Person owner;
 
@@ -7,7 +11,7 @@ public class Vehicle {
         this.owner = owner;
     }
 
-    Vehicle(){                  //SHOULD BE ABLE TO REMOVE DEFAULT CONSTRUCTOR AND STILL WORK, BUT IT DOESN'T
+    Vehicle(){
         registrationNumber = 0;
         owner = null;
     }
