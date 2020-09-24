@@ -22,7 +22,7 @@ public abstract class Employee {
         return "this is the 2string method hello";
     }
 
-    //public abstract double annualSalary();
-    //public abstract double monthlySalary();
+    public abstract double annualSalary();
+    public abstract double monthlySalary();
 
 }

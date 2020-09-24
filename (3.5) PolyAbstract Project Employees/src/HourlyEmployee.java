@@ -14,5 +14,5 @@ public abstract class HourlyEmployee extends  Employee{
 
     }
 
-    //public abstract boolean hasBenefits();
+    public abstract boolean hasBenefits();
 }

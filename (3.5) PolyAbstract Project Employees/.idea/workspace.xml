@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(3.5) PolyAbstract Project Employees" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -67,10 +67,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1600909400449" />
-    <state x="522" y="184" key="FileChooserDialogImpl" timestamp="1600982927322">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1600910418377">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="522" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600982927322" />
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600910418377" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600910419362">
       <screen x="0" y="0" width="1600" height="860" />
