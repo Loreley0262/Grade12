@@ -23,4 +23,10 @@ public class GasPlanet  extends Planet{
     public void setColor(Color color) {
         this.color = color;
     }
+
+    @Override
+    public String toString(){
+        return "Gas planet orbit time: " + getOrbitTime() + "\nGas planet designation: " + getDesignation() +
+                "\nGas planet moon arraylist: " + getMoonList();
+    }
 }

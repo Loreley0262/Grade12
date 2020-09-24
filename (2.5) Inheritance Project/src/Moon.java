@@ -36,6 +36,19 @@ public class Moon {
         this.atmosphere = atmosphere;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Moon){
+            Moon other = (Moon) obj;
+            return this.orbitTime == other.orbitTime && this.designation.equals(other.designation) && this.atmosphere == other.atmosphere && this.planet == other.planet;
+        }
+        return false;
+    }
 
+    @Override
+    public String toString(){
+        return "moon orbit time: " + getOrbitTime() + "\nmoon designation: " + getDesignation() +
+                "\nplanet: " + planet.getDesignation();
+    }
 
 }

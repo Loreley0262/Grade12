@@ -32,9 +32,6 @@ public class Planet {
     public ArrayList<Moon> getMoonList() {
         return moonList;
     }
-    public void setMoonList(ArrayList<Moon> moonList) {
-        this.moonList = moonList;
-    }
 
 
 
@@ -46,9 +43,7 @@ public class Planet {
     public boolean equals(Object obj) {
         if (obj instanceof Planet){
             Planet other = (Planet) obj;
-            if (this.orbitTime == other.orbitTime){
-                return true;
-            }
+            return this.orbitTime == other.orbitTime && this.designation.equals(other.designation) && this.moonList == other.moonList;
         }
         return false;
     }
