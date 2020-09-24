@@ -43,7 +43,7 @@ public class Planet {
     public boolean equals(Object obj) {
         if (obj instanceof Planet){
             Planet other = (Planet) obj;
-            return this.orbitTime == other.orbitTime && this.designation.equals(other.designation) && this.moonList == other.moonList;
+            return this.orbitTime == other.orbitTime && this.designation.equals(other.designation);
         }
         return false;
     }

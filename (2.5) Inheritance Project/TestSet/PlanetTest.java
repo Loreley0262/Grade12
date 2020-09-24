@@ -11,6 +11,8 @@ public class PlanetTest {
     private ArrayList<Moon> moonList;
     Planet gasplanet;
     Planet rockplanet;
+    Planet gasplanet1;
+    Planet rockplanet1;
     Moon gasmoon;
     Moon gasmoon1;
     Moon rockmoon;
@@ -39,23 +41,28 @@ public class PlanetTest {
         assertFalse(gasmoon.equals(rockmoon));
     }
 
-
     @Test
-    public void testGasPlanet(){
+    public void testAreObjectsIdentical(){
         gasmoon1 = new Moon (gasplanet, 11111, true, "gassymoon");
         rockmoon1 = new Moon(rockplanet, 11111, false, "rockymoon");
-        
         assertTrue(gasmoon.equals(gasmoon1));
         assertTrue(rockmoon.equals(rockmoon1));
-
+        gasplanet1 = new GasPlanet(11111, "gp", false, Color.blue);
+        rockplanet1 = new RockPlanet(11111, "rp", false);
+        assertTrue(gasplanet.equals(gasplanet1));
+        assertTrue(rockplanet.equals(rockplanet1));
     }
 
     @Test
-    public void testRockPlanet(){
-        //check RockPlanet exists, has time and designation
-        rockplanet = new RockPlanet(11111, "gassy", false);
-        assertEquals(11111, rockplanet.getOrbitTime());
-        assertEquals("gassy", rockplanet.getDesignation());
+    public void testAreObjectsDifferent(){
+        gasmoon1 = new Moon (gasplanet, 1111, true, "gassymoon");
+        rockmoon1 = new Moon(rockplanet, 1111, false, "rockymoon");
+        assertFalse(gasmoon.equals(gasmoon1));
+        assertFalse(rockmoon.equals(rockmoon1));
+        gasplanet1 = new GasPlanet(1111, "gp", false, Color.blue);
+        rockplanet1 = new RockPlanet(1111, "rp", false);
+        assertFalse(gasplanet.equals(gasplanet1));
+        assertFalse(rockplanet.equals(rockplanet1));
     }
 
     @Test
