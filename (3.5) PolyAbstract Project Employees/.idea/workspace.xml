@@ -28,11 +28,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(2.5) Inheritance Project Solar System" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="(3.5) PolyAbstract Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tst" />
       <module name="(3.5) PolyAbstract Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -41,6 +48,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.tst" />
       </list>
     </recent_temporary>
   </component>
@@ -63,33 +71,48 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1600909400449">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="545" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1600984011518">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="545" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1600984011518" />
     <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1600909400449" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1600910418377">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="450" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600983627904">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="450" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600983627904" />
+    <state x="522" y="184" key="FileChooserDialogImpl" timestamp="1600982987427">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="522" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600982987427" />
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600910418377" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600910419362">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1600984663781">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600910419362">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1600984663781">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600910419362">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1600984663781">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600910419362">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1600984663781">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600910242755">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1600983231125">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1600983231125" />
+    <state x="417" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600983525842">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="417" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600983525842" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600910242755" />
   </component>
 </project>

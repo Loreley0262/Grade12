@@ -19,7 +19,7 @@ public abstract class Employee {
     }
 
     public String toString(){
-        return "this is the 2string method hello";
+        return "Employee Name: " + name + "\n Hire Year: " + hireYear + "\n";
     }
 
     public abstract double annualSalary();
