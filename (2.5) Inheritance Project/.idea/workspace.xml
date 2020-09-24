@@ -50,12 +50,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(2) Inheritance Lesson" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.PlanetTest.testGasPlanet">
+  <component name="RunManager" selected="JUnit.PlanetTest.testRockPlanet">
     <configuration name="PlanetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="(2.5) Inheritance Project" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,8 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlanetTest.testRockPlanet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="(2.5) Inheritance Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlanetTest" />
+      <option name="METHOD_NAME" value="testRockPlanet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlanetTest.testRockPlanet" />
         <item itemvalue="JUnit.PlanetTest.testGasPlanet" />
         <item itemvalue="JUnit.PlanetTest" />
         <item itemvalue="JUnit.PlanetTest.testOrbitTime" />
@@ -104,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600892523645</updated>
-      <workItem from="1600902243715" duration="1142000" />
+      <workItem from="1600902243715" duration="5024000" />
     </task>
     <servers />
   </component>
@@ -125,34 +142,40 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1600894238428">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="583" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1600906612702">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1600894238428" />
+    <state x="583" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1600906612702" />
     <state x="517" y="300" key="DetectedRootsChooserDialog" timestamp="1600894702220">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="517" y="300" key="DetectedRootsChooserDialog/0.0.1440.860@0.0.1440.860" timestamp="1600894702220" />
-    <state x="426" y="171" key="FileChooserDialogImpl" timestamp="1600894699085">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="473" y="171" key="FileChooserDialogImpl" timestamp="1600908934481">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600894699085" />
-    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1600898495430">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="473" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600908934481" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600905786902">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600898495430" />
-    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1600898495430">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600905786902" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600905786902">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600898495430" />
-    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1600898495430">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600905786902" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600905786901">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600898495430" />
-    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1600898495430">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600905786901" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600905786902">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600898495430" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600905786902" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1600898495430">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -178,6 +201,14 @@
     </state>
     <state x="424" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.860@0.0.1440.860" timestamp="1600894951728" />
     <state x="471" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860@0.0.1600.860" timestamp="1600903048436" />
+    <state x="182" y="50" key="new project wizard" timestamp="1600908936132">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1600908936132" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1600908504656">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600908504656" />
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600894260491">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

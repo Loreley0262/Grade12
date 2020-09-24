@@ -10,6 +10,7 @@ public class PlanetTest {
     Planet planet;
     private ArrayList<Moon> moonList;
     Planet gasplanet;
+    Planet rockplanet;
 
     //CHANGE MOONLIST VARIABLE TO MOONS B/C I RENAMED IT TO SMTH ELSE
 
@@ -39,9 +40,26 @@ public class PlanetTest {
 
     @Test
     public void testGasPlanet(){
-        //check GasPlanet exists, has
+        //check GasPlanet exists, has time and designation
         gasplanet = new GasPlanet(11111, "gassy", false, Color.blue);
         assertEquals(11111, gasplanet.getOrbitTime());
         assertEquals("gassy", gasplanet.getDesignation());
     }
+
+    @Test
+    public void testRockPlanet(){
+        //check RockPlanet exists, has time and designation
+        rockplanet = new RockPlanet(11111, "gassy", false);
+        assertEquals(11111, rockplanet.getOrbitTime());
+        assertEquals("gassy", rockplanet.getDesignation());
+    }
+
+    @Test
+    public void testEqualsPlanet(){
+        //check RockPlanet exists, has time and designation
+        rockplanet = new RockPlanet(11111, "gassy", false);
+        assertEquals(11111, rockplanet.getOrbitTime());
+        assertEquals("gassy", rockplanet.getDesignation());
+    }
+
 }
