@@ -11,6 +11,10 @@ public class PlanetTest {
     private ArrayList<Moon> moonList;
     Planet gasplanet;
     Planet rockplanet;
+    Moon gasmoon;
+    Moon gasmoon1;
+    Moon rockmoon;
+    Moon rockmoon1;
 
     //CHANGE MOONLIST VARIABLE TO MOONS B/C I RENAMED IT TO SMTH ELSE
 
@@ -19,6 +23,10 @@ public class PlanetTest {
     public void setup(){
         planet = new Planet();
         moonList = new ArrayList<Moon>();
+        gasplanet = new GasPlanet(11111, "gp", false, Color.blue);
+        rockplanet = new RockPlanet(11111, "rp", false);
+        gasmoon = new Moon(gasplanet, 11111, true, "gassymoon");
+        rockmoon = new Moon(rockplanet, 11111, false, "rockymoon");
     }
 
     //- if the equal method could tell whether or not the classes are the same (e.g GasPlanet != RockPlanet)
@@ -26,29 +34,20 @@ public class PlanetTest {
     //- if the equal method could tell whether or not two planets were not the same
 
     @Test
-    public void areClassesTheSame(){
-        //make 2 planets
-        gasplanet = new GasPlanet(11111, "gp", false, Color.blue);
-        assertEquals(11111, planet.getOrbitTime());
+    public void testAreClassesTheSame(){
+        assertFalse(gasplanet.equals(rockplanet));
+        assertFalse(gasmoon.equals(rockmoon));
     }
 
-    @Test
-    public void testMoonListSize(){     //check moon size increases after adding a moon, checks moon constructor works
-        //check moon size is 0
-        assertEquals(0, moonList.size());
-        //make new moon for planet
-        Moon moonTest = new Moon(planet, 11111, true, "moonname");
-        moonList.add(moonTest);
-        //check # of moons is 1
-        assertEquals(1, moonList.size());
-    }
 
     @Test
     public void testGasPlanet(){
-        //check GasPlanet exists, has time and designation
-        gasplanet = new GasPlanet(11111, "gassy", false, Color.blue);
-        assertEquals(11111, gasplanet.getOrbitTime());
-        assertEquals("gassy", gasplanet.getDesignation());
+        gasmoon1 = new Moon (gasplanet, 11111, true, "gassymoon");
+        rockmoon1 = new Moon(rockplanet, 11111, false, "rockymoon");
+        
+        assertTrue(gasmoon.equals(gasmoon1));
+        assertTrue(rockmoon.equals(rockmoon1));
+
     }
 
     @Test
