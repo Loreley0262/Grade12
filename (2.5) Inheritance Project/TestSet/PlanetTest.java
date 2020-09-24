@@ -21,9 +21,14 @@ public class PlanetTest {
         moonList = new ArrayList<Moon>();
     }
 
+    //- if the equal method could tell whether or not the classes are the same (e.g GasPlanet != RockPlanet)
+    //- if the equal method could tell whether or not two planets were exactly the same
+    //- if the equal method could tell whether or not two planets were not the same
+
     @Test
-    public void testPlanetOrbitTime(){
-        //check planet orbitTime is 11111
+    public void areClassesTheSame(){
+        //make 2 planets
+        gasplanet = new GasPlanet(11111, "gp", false, Color.blue);
         assertEquals(11111, planet.getOrbitTime());
     }
 
