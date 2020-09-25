@@ -1,11 +1,13 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<HourlyEmployee> partTimeEmployeeList = new ArrayList<>();
+        Employee[] partTimeEmployeeList = {new PartTime("PTJoe", 25.5, 14.60, 2000),
+                new SalaryEmployee("Sal", 2000, 5000)};
         ArrayList<SalaryEmployee> salaryEmployeeList = new ArrayList<>();
 
-        HourlyEmployee bob = new HourlyEmployee("EMPBob", 2000, 15.5, 14.60) {
+        Employee bob = new HourlyEmployee("EMPBob", 2000, 15.5, 14.60) {
             @Override
             public boolean hasBenefits() {
                 return false;
@@ -24,12 +26,12 @@ public class Main {
         PartTime joe = new PartTime("PTJoe", 25.5, 14.60, 2000);
         SalaryEmployee sal = new SalaryEmployee("Sal", 2000, 5000);
 
-        partTimeEmployeeList.add(bob);
-        partTimeEmployeeList.add(joe);
+//        partTimeEmployeeList.add(bob);
+//        partTimeEmployeeList.add(joe);
 
         salaryEmployeeList.add(sal);
 
-        System.out.println(salaryEmployeeList + "\n" + partTimeEmployeeList);
+        System.out.println(salaryEmployeeList + "\n" + Arrays.toString(partTimeEmployeeList));
 
     }
 }
