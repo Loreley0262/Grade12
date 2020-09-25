@@ -13,5 +13,11 @@ public class Main {
                 System.out.println("not fri or sun");
                 break;
         }
+
+        //------------------------------------------------------
+        Increment increment = new Increment();
+        System.out.println(increment.value);
+        increment.getNext();
+        System.out.println(increment.value);
     }
 }

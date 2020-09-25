@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d1c5f16-d194-4b64-b36d-b2fd1ab61f24" name="Default Changelist" comment="" />
+    <list default="true" id="6d1c5f16-d194-4b64-b36d-b2fd1ab61f24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(3.5) PolyAbstract Project/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +31,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(2.5) Inheritance Project Solar System" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(4) Interfaces, Packages, Enumerations Lesson" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -52,7 +61,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600908936277</updated>
       <workItem from="1600908939358" duration="1479000" />
+      <workItem from="1600988558260" duration="1808000" />
     </task>
     <servers />
   </component>
@@ -80,31 +90,31 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600983627904" />
-    <state x="522" y="184" key="FileChooserDialogImpl" timestamp="1600982987427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1600991897403">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="522" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600982987427" />
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600910418377" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1600984663781">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600991897403" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600991898553">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1600984663781">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600991898553" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600991898553">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1600984663781">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600991898553" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600991898553">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1600984663781">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600991898553" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600991898553">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600910419362" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600991898553" />
     <state x="376" y="195" key="run.anything.popup" timestamp="1600983231125">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
