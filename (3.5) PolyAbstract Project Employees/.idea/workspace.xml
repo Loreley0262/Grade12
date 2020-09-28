@@ -61,7 +61,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,10 +107,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="95" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601003408787" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1600991897403">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="522" y="184" key="FileChooserDialogImpl" timestamp="1601324393928">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="522" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600982987427" />
+    <state x="522" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601324393927" />
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600991897403" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1601053721778">
       <screen x="0" y="0" width="1600" height="860" />
@@ -132,6 +132,10 @@
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600984663781" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601053721778" />
+    <state x="102" y="50" key="new project wizard" timestamp="1601324395544">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1601324395544" />
     <state x="376" y="195" key="run.anything.popup" timestamp="1600983231125">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
