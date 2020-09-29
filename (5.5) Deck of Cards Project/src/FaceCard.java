@@ -1,5 +1,5 @@
 public class FaceCard extends Cards{
-    String person;
+
 
     FaceCard(String person, Suits suit){
         this.person = person;

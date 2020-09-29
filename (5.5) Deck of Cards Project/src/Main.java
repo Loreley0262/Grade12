@@ -1,3 +1,5 @@
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Main {
@@ -5,16 +7,13 @@ public class Main {
         LinkedList<Cards> deckOfCards = new LinkedList<Cards>();
 
         //making face cards
-        for (int i = 1; i<=4; i++){
+        for (int i = 1; i<=3; i++){
             String ppl = "Jack";
             if (i==2){
                 ppl = "Queen";
             }
             if (i==3) {
                 ppl = "King";
-            }
-            if (i==4){
-                ppl = "Ace";
             }
             FaceCard spade = new FaceCard(ppl, Suits.SPADES);
             FaceCard heart = new FaceCard(ppl, Suits.HEARTS);
@@ -27,7 +26,7 @@ public class Main {
         }
 
         //making number cards
-        for (int i = 2; i<=10; i++){
+        for (int i = 1; i<=10; i++){
             NumberCard spade = new NumberCard(i, Suits.SPADES);
             NumberCard heart = new NumberCard(i, Suits.HEARTS);
             NumberCard club = new NumberCard(i, Suits.CLUBS);
@@ -40,27 +39,16 @@ public class Main {
         System.out.println(deckOfCards);
         System.out.println("size of deck: " + deckOfCards.size());
 
-        Cards c = new Cards();
+        System.out.println("*********SORTING*********");
+        CustomComparator c = new CustomComparator();
+        Collections.sort(deckOfCards, c);
+        Iterator<Cards> cardsIterator = deckOfCards.iterator();
+        while (cardsIterator.hasNext()){
+            System.out.print(cardsIterator.next());
+        }
 
     }
 
 
-        //1 5 9     Spades
-        //2 6 10    Hearts
-        //3 7 11    Clubs
-        //4 8 12    Diamonds
-
-//        ll.add("A");
-//        ll.add("B");
-//        ll.addLast("C");
-//        ll.addFirst("D");
-//        ll.add(2, "E");
-//        System.out.println(ll);
-//
-//        ll.remove("B");
-//        ll.remove(3);
-//        ll.removeFirst();
-//        ll.removeLast();
-
-    }
+}
 
