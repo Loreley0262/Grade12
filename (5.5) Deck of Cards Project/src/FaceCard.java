@@ -1,6 +1,5 @@
 public class FaceCard extends Cards{
 
-
     FaceCard(FaceTest face, Suits suit){
         this.face = face;
         this.suit = suit;

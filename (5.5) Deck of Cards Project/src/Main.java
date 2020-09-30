@@ -28,6 +28,7 @@ public class Main {
             deckOfCards.add(diamond);
         }
         System.out.println();
+
         //making number cards
         for (int i = 1; i<=10; i++){
             NumberCard spade = new NumberCard(i, Suits.SPADES);
@@ -39,7 +40,6 @@ public class Main {
             deckOfCards.add(club);
             deckOfCards.add(diamond);
         }
-        System.out.println(deckOfCards);
         System.out.println("size of deck: " + deckOfCards.size());
 
         System.out.println("*********SORTING*********");
