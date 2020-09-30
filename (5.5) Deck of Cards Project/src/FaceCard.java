@@ -14,4 +14,12 @@ public class FaceCard extends Cards{
     public String toString(){
         return "\n" + face + " of " + suit;
     }
+
+    @Override
+    public int compareTo(Cards o) {
+        if (this.face.faceVal>o.face.faceVal){
+            return up;
+        }
+        return down;
+    }
 }

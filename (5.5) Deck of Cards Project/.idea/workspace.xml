@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(6)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,41 +112,72 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1601415465666">
+    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1601502193354">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1601415465666" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1601497444892">
+    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1601502193354" />
+    <state width="396" height="438" key="DebuggerActiveHint" timestamp="1601502497337">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601497444892" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1601497397434">
+    <state width="396" height="438" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1601502497337" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1601501618255">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601497397434" />
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601501618255" />
+    <state width="1397" height="273" key="GridCell.Tab.0.bottom" timestamp="1601502371000">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="273" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601438147350" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1601497397434">
+    <state width="1397" height="273" key="GridCell.Tab.0.center" timestamp="1601502371000">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1601497397434" />
+    <state width="1397" height="273" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601438147350" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1601497397434">
+    <state width="1397" height="273" key="GridCell.Tab.0.left" timestamp="1601502371000">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1601497397434" />
+    <state width="1397" height="273" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601438147350" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1601497397434">
+    <state width="1397" height="273" key="GridCell.Tab.0.right" timestamp="1601502371000">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1601497397434" />
+    <state width="1397" height="273" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601438147350" />
+    <state width="1397" height="273" key="GridCell.Tab.1.bottom" timestamp="1601502371001">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="273" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601502371001" />
+    <state width="1397" height="273" key="GridCell.Tab.1.center" timestamp="1601502371000">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="273" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
+    <state width="1397" height="273" key="GridCell.Tab.1.left" timestamp="1601502371000">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="273" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
+    <state width="1397" height="273" key="GridCell.Tab.1.right" timestamp="1601502371000">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="273" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1601502371000" />
     <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1601424970180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1601424970180" />
-    <state x="102" y="50" key="new project wizard" timestamp="1601497436205">
+    <state x="102" y="50" key="new project wizard" timestamp="1601501619627">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1601497436205" />
+    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1601501619627" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CustomComparator.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
