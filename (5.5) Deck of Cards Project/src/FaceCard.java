@@ -1,8 +1,8 @@
 public class FaceCard extends Cards{
 
 
-    FaceCard(String person, Suits suit){
-        this.person = person;
+    FaceCard(FaceTest face, Suits suit){
+        this.face = face;
         this.suit = suit;
     }
 
@@ -13,6 +13,6 @@ public class FaceCard extends Cards{
 //    }
 
     public String toString(){
-        return "\n" + person + " of " + suit;
+        return "\n" + face + " of " + suit;
     }
 }

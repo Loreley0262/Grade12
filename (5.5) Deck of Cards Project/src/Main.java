@@ -7,13 +7,16 @@ public class Main {
         LinkedList<Cards> deckOfCards = new LinkedList<Cards>();
 
         //making face cards
+        FaceTest jack = FaceTest.JACK;
+        FaceTest queen = FaceTest.QUEEN;
+        FaceTest king = FaceTest.KING;
         for (int i = 1; i<=3; i++){
-            String ppl = "Jack";
+            FaceTest ppl = jack;
             if (i==2){
-                ppl = "Queen";
+                ppl = queen;
             }
             if (i==3) {
-                ppl = "King";
+                ppl = king;
             }
             FaceCard spade = new FaceCard(ppl, Suits.SPADES);
             FaceCard heart = new FaceCard(ppl, Suits.HEARTS);
@@ -24,7 +27,7 @@ public class Main {
             deckOfCards.add(club);
             deckOfCards.add(diamond);
         }
-
+        System.out.println();
         //making number cards
         for (int i = 1; i<=10; i++){
             NumberCard spade = new NumberCard(i, Suits.SPADES);

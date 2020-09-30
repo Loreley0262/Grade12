@@ -4,6 +4,7 @@ public class NumberCard extends Cards{
     NumberCard(int value, Suits suit){
         this.value = value;
         this.suit = suit;
+
     }
 
 

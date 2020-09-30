@@ -20,13 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7007dc3d-9b24-449f-bc9b-9c4aa085744b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IncreaseByFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Increment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(3.5) PolyAbstract Project Employees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../(3.5) PolyAbstract Project Employees/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(3.5) PolyAbstract Project Employees/out/production/(3.5) PolyAbstract Project/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(3.5) PolyAbstract Project Employees/out/production/(3.5) PolyAbstract Project/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(3.5) PolyAbstract Project/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/FaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/CustomComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/CustomComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/FaceCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/FaceCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/NumberCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/NumberCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/CustomComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/CustomComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/FaceCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/FaceCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/NumberCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/NumberCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Suits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +82,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600979186635</updated>
       <workItem from="1600991900131" duration="7440000" />
+      <workItem from="1601427508225" duration="1661000" />
     </task>
     <servers />
   </component>
@@ -99,12 +106,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1600996445477">
