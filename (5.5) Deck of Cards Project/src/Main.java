@@ -19,31 +19,27 @@ public class Main {
                 ppl = king;
             }
             FaceCard spade = new FaceCard(ppl, Suits.SPADES);
-//            FaceCard heart = new FaceCard(ppl, Suits.HEARTS);
-//            FaceCard club = new FaceCard(ppl, Suits.CLUBS);
-//            FaceCard diamond = new FaceCard(ppl, Suits.DIAMONDS);
+            FaceCard heart = new FaceCard(ppl, Suits.HEARTS);
+            FaceCard club = new FaceCard(ppl, Suits.CLUBS);
+            FaceCard diamond = new FaceCard(ppl, Suits.DIAMONDS);
             deckOfCards.add(spade);
-//            deckOfCards.add(heart);
-//            deckOfCards.add(club);
-//            deckOfCards.add(diamond);
+            deckOfCards.add(heart);
+            deckOfCards.add(club);
+            deckOfCards.add(diamond);
         }
-        NumberCard spade = new NumberCard(1, Suits.SPADES);
-        deckOfCards.add(spade);
-        spade = new NumberCard(2, Suits.SPADES);
-        deckOfCards.add(spade);
-        System.out.println();
 
-//        //making number cards
-//        for (int i = 1; i<=10; i++){
-//            NumberCard spade = new NumberCard(i, Suits.SPADES);
-////            NumberCard heart = new NumberCard(i, Suits.HEARTS);
-////            NumberCard club = new NumberCard(i, Suits.CLUBS);
-////            NumberCard diamond = new NumberCard(i, Suits.DIAMONDS);
-//            deckOfCards.add(spade);
-////            deckOfCards.add(heart);
-////            deckOfCards.add(club);
-////            deckOfCards.add(diamond);
-//        }
+
+        //making number cards
+        for (int i = 1; i<=10; i++){
+            NumberCard spade = new NumberCard(i, Suits.SPADES);
+            NumberCard heart = new NumberCard(i, Suits.HEARTS);
+            NumberCard club = new NumberCard(i, Suits.CLUBS);
+            NumberCard diamond = new NumberCard(i, Suits.DIAMONDS);
+            deckOfCards.add(spade);
+            deckOfCards.add(heart);
+            deckOfCards.add(club);
+            deckOfCards.add(diamond);
+        }
         System.out.println("size of deck: " + deckOfCards.size());
 
         System.out.println("*********SORTING*********");

@@ -5,16 +5,10 @@ public class NumberCard extends Cards{
     NumberCard(int value, Suits suit){
         this.value = value;
         this.suit = suit;
-        if (value == 1){
-            value = 14;
-        }
     }
 
 
     public String toString(){
-        if (value == 14){
-            return "\n" + ace + " of " + suit;
-        }
         return "\n" + value + " of " + suit;
     }
 
