@@ -1,10 +1,7 @@
 public class NumberCard extends Cards{
-    int value;
-    int ace = 1;
 
     NumberCard(int value, Suits suit){
-        this.value = value;
-        this.suit = suit;
+        super(value, suit);
     }
 
 
@@ -12,11 +9,4 @@ public class NumberCard extends Cards{
         return "\n" + value + " of " + suit;
     }
 
-    @Override
-    public int compareTo(Cards o) {
-        if (this.value>o.value){
-            return up;
-        }
-        return down;
-    }
 }

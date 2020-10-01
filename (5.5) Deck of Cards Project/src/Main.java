@@ -7,21 +7,11 @@ public class Main {
         LinkedList<Cards> deckOfCards = new LinkedList<Cards>();
 
         //making face cards
-        FaceTest jack = FaceTest.JACK;
-        FaceTest queen = FaceTest.QUEEN;
-        FaceTest king = FaceTest.KING;
-        for (int i = 1; i<=3; i++){
-            FaceTest ppl = jack;
-            if (i==2){
-                ppl = queen;
-            }
-            if (i==3) {
-                ppl = king;
-            }
-            FaceCard spade = new FaceCard(ppl, Suits.SPADES);
-            FaceCard heart = new FaceCard(ppl, Suits.HEARTS);
-            FaceCard club = new FaceCard(ppl, Suits.CLUBS);
-            FaceCard diamond = new FaceCard(ppl, Suits.DIAMONDS);
+        for (int i = 11; i<=13; i++){
+            FaceCard spade = new FaceCard(i, Suits.SPADES);
+            FaceCard heart = new FaceCard(i, Suits.HEARTS);
+            FaceCard club = new FaceCard(i, Suits.CLUBS);
+            FaceCard diamond = new FaceCard(i, Suits.DIAMONDS);
             deckOfCards.add(spade);
             deckOfCards.add(heart);
             deckOfCards.add(club);
@@ -47,9 +37,14 @@ public class Main {
         CustomComparator c = new CustomComparator();
         Collections.sort(deckOfCards, c);
         Iterator<Cards> cardsIterator2 = deckOfCards.iterator();
-        while (cardsIterator2.hasNext()){
+        while (cardsIterator2.hasNext()) {
             System.out.print(cardsIterator2.next());
         }
+//        Collections.sort(deckOfCards);
+//        Iterator<Cards> cardsIterator = deckOfCards.iterator();
+//        while (cardsIterator.hasNext()){
+//            System.out.print(cardsIterator.next());
+//        }
 
     }
 

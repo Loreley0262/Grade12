@@ -1,25 +1,21 @@
 public class FaceCard extends Cards{
+    String face;
 
-    FaceCard(FaceTest face, Suits suit){
-        this.face = face;
-        this.suit = suit;
+    FaceCard(int value, Suits suit){
+        super(value, suit);
+        if (value == 11){
+            face = "Jack";
+        }
+        if (value == 12){
+            face = "Queen";
+        }
+        if (value == 13){
+            face = "King";
+        }
     }
-
-//    @Override
-//    public int compareTo(Cards o) {
-//        if (this.person)
-//            return 0;
-//    }
 
     public String toString(){
         return "\n" + face + " of " + suit;
     }
 
-    @Override
-    public int compareTo(Cards o) {
-        if (this.face.faceVal>o.face.faceVal){
-            return up;
-        }
-        return down;
-    }
 }

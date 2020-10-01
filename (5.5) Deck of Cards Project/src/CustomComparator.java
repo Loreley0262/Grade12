@@ -14,17 +14,17 @@ public class CustomComparator implements Comparator<Cards> {
             return down;
         }
         else if (o1 instanceof FaceCard && o2 instanceof FaceCard){
-            if (o1.face.faceVal> o2.face.faceVal){
-                return down;
-            }
+            if (o1.value> o2.value){
                 return up;
+            }
+                return down;
         }
 
         if (o1 instanceof FaceCard && o2 instanceof NumberCard){
-            return down;
+            return up;
         }
         if (o1 instanceof NumberCard && o2 instanceof FaceCard){
-            return up;
+            return down;
         }
         return same;
     }
