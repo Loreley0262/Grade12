@@ -1,6 +1,8 @@
 public class Ileeahd implements Comparable<Ileeahd>{
     int page;
-    int chap;
+    int up = 1;
+    int down = -1;
+    int same = 0;
 
     Ileeahd(int page){
         this.page = page;
@@ -13,8 +15,8 @@ public class Ileeahd implements Comparable<Ileeahd>{
     @Override
     public int compareTo(Ileeahd o) {
         if (this.page>o.page){
-            return 1;
+            return up;
         }
-        return -1;
+        return down;
     }
 }
