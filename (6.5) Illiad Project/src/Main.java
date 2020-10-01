@@ -13,25 +13,22 @@ public class Main {
         ArrayList<String> totalNumWords = new ArrayList<>();
         String word = "";
 
-        while (scan2.hasNext()){
-            word = scan.next();
-            word = word.toLowerCase();
-            totalNumWords.add(word);
-            ilYA.add(word);
-            System.out.print(word + "  ");
-        }
-
-//        while (scan.hasNext()) {
-//            word = scan.next();
-//            word = word.toLowerCase();
+//        while (scan2.hasNext()){
+//            word = scan2.next();
+//            word = word.toLowerCase().replaceAll("\\W", "");
 //            totalNumWords.add(word);
 //            ilYA.add(word);
-//            System.out.print(word + "  ");
 //        }
+
+        while (scan.hasNext()) {
+            word = scan.next();
+            word = word.toLowerCase().replaceAll("\\W", "");
+            totalNumWords.add(word);
+            ilYA.add(word);
+        }
 
         String[] totalNumWordsArray = totalNumWords.toArray(new String[0]);
         String[] ilYArray = ilYA.toArray(new String[0]);
-//        String[] testArray = test.toArray(new String[0]);
         int origNum = 0;
         int sortNum = 0;
 
@@ -41,9 +38,8 @@ public class Main {
         for (String s : ilYArray) {
             sortNum++;
         }
-        System.out.println(origNum);
-        System.out.println(sortNum);
-
+        System.out.println("Total number of words: " + origNum);
+        System.out.println("Number of unique words: " + sortNum);
 
     }
 }
