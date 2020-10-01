@@ -168,6 +168,10 @@
     </state>
     <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1600894238428" />
     <state x="583" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1600906612702" />
+    <state x="277" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601584107047">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="277" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1601584107047" />
     <state x="517" y="300" key="DetectedRootsChooserDialog" timestamp="1600894702220">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -236,9 +240,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600908504656" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600894260491">
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601584137433">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600894260491" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1601584137433" />
   </component>
 </project>

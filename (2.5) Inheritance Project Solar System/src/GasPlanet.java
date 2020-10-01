@@ -27,6 +27,6 @@ public class GasPlanet  extends Planet{
     @Override
     public String toString(){
         return "Gas planet orbit time: " + getOrbitTime() + "\nGas planet designation: " + getDesignation() +
-                "\nGas planet moon arraylist: " + getMoonList();
+                "\nGas planet moon arraylist: " + getMoons();
     }
 }

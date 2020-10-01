@@ -6,25 +6,14 @@ import java.util.ArrayList;
 
 import static junit.framework.TestCase.*;
 
-public class PlanetTest {
-    Planet planet;
-    private ArrayList<Moon> moons;
-    Planet gasplanet;
-    Planet rockplanet;
-    Planet gasplanet1;
-    Planet rockplanet1;
-    Moon gasmoon;
-    Moon gasmoon1;
-    Moon rockmoon;
-    Moon rockmoon1;
-
-    //CHANGE MOONLIST VARIABLE TO MOONS B/C I RENAMED IT TO SMTH ELSE
+public class Test {
+    String "jello";
 
 
     @Before
     public void setup(){
         planet = new Planet();
-        moons = new ArrayList<Moon>();
+        moonList = new ArrayList<Moon>();
         gasplanet = new GasPlanet(11111, "gp", false, Color.blue);
         rockplanet = new RockPlanet(11111, "rp", false);
         gasmoon = new Moon(gasplanet, 11111, true, "gassymoon");

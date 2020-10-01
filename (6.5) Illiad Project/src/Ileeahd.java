@@ -4,6 +4,7 @@ public class Ileeahd implements Comparable<Ileeahd>{
     int down = -1;
     int same = 0;
 
+
     Ileeahd(int page){
         this.page = page;
     }

@@ -3,12 +3,12 @@ import java.util.ArrayList;
 
 public class Planet {
     private int orbitTime;
-    private ArrayList<Moon> moonList;
+    private ArrayList<Moon> moons;
     private String designation;
 
     Planet(){
         this.orbitTime = 11111;
-        this.moonList = new ArrayList<Moon>();
+        this.moons = new ArrayList<Moon>();
         this.designation = "planetNaem";
     }
 
@@ -29,14 +29,14 @@ public class Planet {
     public void setOrbitTime(int orbitTime) {
         this.orbitTime = orbitTime;
     }
-    public ArrayList<Moon> getMoonList() {
-        return moonList;
+    public ArrayList<Moon> getMoons() {
+        return moons;
     }
 
 
 
     public void addMoon(Moon moon){
-        moonList.add(moon);
+        moons.add(moon);
     }
 
     @Override
@@ -51,7 +51,7 @@ public class Planet {
     @Override
     public String toString(){
         return "Planet orbit time: " + getOrbitTime() + "\nPlanet designation: " + getDesignation() +
-                "\nPlanet moon arraylist: " + moonList;
+                "\nPlanet moon arraylist: " + moons;
     }
     
 
