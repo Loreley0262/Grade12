@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7007dc3d-9b24-449f-bc9b-9c4aa085744b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/FaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/CustomComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/CustomComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/FaceCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/FaceCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/NumberCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/out/production/(5.5) Deck of Cards Project/NumberCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Cards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/CustomComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/CustomComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/FaceCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/FaceCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/NumberCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/NumberCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(5.5) Deck of Cards Project/src/Suits.java" afterDir="false" />
-    </list>
+    <list default="true" id="7007dc3d-9b24-449f-bc9b-9c4aa085744b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(6.5) Illiad Project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,6 +81,7 @@
       <updated>1600979186635</updated>
       <workItem from="1600991900131" duration="7440000" />
       <workItem from="1601427508225" duration="1661000" />
+      <workItem from="1601505238081" duration="278000" />
     </task>
     <servers />
   </component>
@@ -119,10 +106,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1600996445477" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1601000703407">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1601505514418">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601000703407" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601505514418" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1601000704596">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -143,5 +130,9 @@
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600980306091" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601000704596" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1601505507655">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1601505507655" />
   </component>
 </project>
