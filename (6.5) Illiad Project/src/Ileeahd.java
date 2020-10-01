@@ -1,23 +1,33 @@
 public class Ileeahd implements Comparable<Ileeahd>{
-    int page;
+    String word;
     int up = 1;
     int down = -1;
     int same = 0;
 
 
-    Ileeahd(int page){
-        this.page = page;
+    Ileeahd(String word){
+        this.word = word;
     }
 
     public String toString(){
-        return "toasty ring";
+        return word;
+    }
+
+    public boolean equals(Ileeahd s) {
+        String firstString = this.toString().toLowerCase();
+        String secondString = s.toString().toLowerCase();
+        if (firstString.equals(secondString)){
+            System.out.println("yes");
+            return true;
+        }
+        else {
+            System.out.println("no");
+            return false;
+        }
     }
 
     @Override
     public int compareTo(Ileeahd o) {
-        if (this.page>o.page){
-            return up;
-        }
-        return down;
+        return same;
     }
 }
