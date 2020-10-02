@@ -39,12 +39,14 @@ public class Main {
             System.out.println(entry.getKey() + "\t" + entry.getValue());
         }
 
-//    e(x) = (x+k) (mod26)
-//    e(x) = encryption function
-//    x = character being encrypted after being changed to number
-//    k = key (shift) applied to x
-//    results in number to be translated to letter
-      char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        System.out.println(alfa[1]);
+//      e(x) = (x+k) (mod26)
+//      e(x) = encryption function
+//       x = character being encrypted after being changed to number
+//       k = key (shift) applied to x
+//       results in number to be translated to letter
+        char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+        System.out.println(alfa[num]);
+        //so like num should mod to determine shift, get alfa[modded num] i think? ye
+
     }
 }
