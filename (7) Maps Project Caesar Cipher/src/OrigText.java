@@ -1,5 +1,4 @@
 public class OrigText implements Comparable{
-    char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
     String origWord;
     int up = 1;
     int down = -1;
@@ -24,5 +23,9 @@ public class OrigText implements Comparable{
             }
         }
         return down;
+    }
+
+    public char[] toCharArray(String s) {
+        return s.toCharArray();
     }
 }

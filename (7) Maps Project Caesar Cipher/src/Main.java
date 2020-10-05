@@ -27,8 +27,18 @@ public class Main {
 
         System.out.println("write num from 1 to 25");
         int num = scan.nextInt();
-        OrigText text = new OrigText("abcde");
+        System.out.println("write num from 1 to 25");
+        String string = "abcde";
+        OrigText text = new OrigText(string);
+        char[] test = text.toCharArray(text.origWord);
         Shift shift = new Shift(num);
+        System.out.println(test);
+
+        for (int i = 0; i<string.length(); i++){
+            if (test[i] == 'a'){
+                System.out.println("hi");
+            }
+        }
 
         map.put(text, shift);
 
@@ -38,14 +48,15 @@ public class Main {
             Map.Entry<OrigText, Shift> entry = iterator.next();
             System.out.println(entry.getKey() + "\t" + entry.getValue());
         }
+        char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+        System.out.println(alfa[num]);
 
 //      e(x) = (x+k) (mod26)
 //      e(x) = encryption function
 //       x = character being encrypted after being changed to number
 //       k = key (shift) applied to x
 //       results in number to be translated to letter
-        char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        System.out.println(alfa[num]);
+
         //so like num should mod to determine shift, get alfa[modded num] i think? ye
 
     }

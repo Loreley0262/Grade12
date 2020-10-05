@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e2661-2c55-4f5a-89d8-b7b394579538" name="Default Changelist" comment="" />
+    <list default="true" id="d87e2661-2c55-4f5a-89d8-b7b394579538" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../(6.5) Illiad Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../(6.5) Illiad Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrigText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrigText.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - Board of Education of SD 39 (Vancouver)/! Programming 11!/GitHub/Lyra-C.-Repository/(9) Encryption Assignment" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +78,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d87e2661-2c55-4f5a-89d8-b7b394579538" name="Default Changelist" comment="" />
@@ -72,25 +89,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601670040611</updated>
+      <workItem from="1601686455350" duration="13000" />
+      <workItem from="1601930422807" duration="4565000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1601675082535">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1601931434324">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1601675082535" />
+    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1601931434324" />
     <state x="473" y="37" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601674282044">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -99,22 +124,30 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601675711530" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1601676039632">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1601935184323">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601676039632" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1601676039632">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601935184323" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1601935184323">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1601676039632" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1601676039632">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601935184323" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1601935184323">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1601676039632" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1601676039632">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601935184323" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1601935184323">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1601676039632" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601935184323" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1601931402477">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1601931402477" />
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601674450287">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
