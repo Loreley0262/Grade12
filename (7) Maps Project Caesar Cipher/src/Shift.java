@@ -6,6 +6,8 @@ public class Shift {
         this.shift = shift;
     }
 
+
+
     @Override
     public String toString() {
         return "Shift = " + shift;

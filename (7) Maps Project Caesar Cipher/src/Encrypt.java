@@ -6,4 +6,14 @@ public class Encrypt {
 //    results in number to be translated to letter
 
 
+    public static void assignNums(char[] chars, int[] ints){
+        for (int i = 0; i<chars.length; i++){
+            ints[i] = Character.getNumericValue(chars[i]);
+        }
+    }
+
+    public static String assignLetters(int shift) {
+        return Character.toString ((char) shift);
+    }
+
 }

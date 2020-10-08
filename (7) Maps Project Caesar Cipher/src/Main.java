@@ -25,10 +25,9 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         TreeMap<OrigText, Shift> map = new TreeMap<>();
 
-        System.out.println("write num from 1 to 25");
-        int num = scan.nextInt();
-        System.out.println("write num from 1 to 25");
-        String string = "abcde";
+        System.out.println("key write num from 1 to 25");
+        int num = 1;
+        String string = "abcdefghijklmnopqrstuvwxyz";
         OrigText text = new OrigText(string);
         char[] test = text.toCharArray(text.origWord);
         Shift shift = new Shift(num);
@@ -48,8 +47,41 @@ public class Main {
             Map.Entry<OrigText, Shift> entry = iterator.next();
             System.out.println(entry.getKey() + "\t" + entry.getValue());
         }
+
         char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        System.out.println(alfa[num]);
+        char[] plaintext = text.toCharArray(text.origWord);
+        int[] noms = new int[alfa.length];
+        int[] plainNoms = new int[noms.length];
+        Encrypt.assignNums(alfa, noms);
+        Encrypt.assignNums(plaintext, plainNoms);
+
+        for (int i = 0; i<plaintext.length; i++){
+            plainNoms[i] = Character.forDigit(noms[i], 36);
+            System.out.print(plaintext[i] + " = " + plainNoms[i] + "\t");
+        }
+        System.out.println("\n\n");
+        for (int i = 0; i<plaintext.length; i++){
+            plainNoms[i] = plainNoms[i]+num;
+            System.out.print(Encrypt.assignLetters(plainNoms[i]) + " = " + plainNoms[i] + "\t");
+        }
+
+
+//        int[] noms = new int[alfa.length];
+//        Encrypt.assignNums(alfa, noms);
+//
+//        System.out.println();
+//
+//        char[] x = new char[alfa.length];
+//        for (int i=0; i<noms.length; i++){
+//            x[i] = Character.forDigit(noms[i], 36);
+//        }
+//
+//
+//        char ch = 'a';
+//        char ch2 = 'z';
+
+
+
 
 //      e(x) = (x+k) (mod26)
 //      e(x) = encryption function
@@ -60,4 +92,6 @@ public class Main {
         //so like num should mod to determine shift, get alfa[modded num] i think? ye
 
     }
+
+
 }
