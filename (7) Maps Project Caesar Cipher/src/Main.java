@@ -29,6 +29,7 @@ public class Main {
         System.out.println("pick a number to shift by");
         int shift = scan.nextInt();
         //e(x) = (x+k) (mod26)
+        Encrypt.encryption();
         HashMap<String, String> encrypt = new HashMap<>();
         HashMap<String, String> decrypt = new HashMap<>();
         ArrayList<String> alphabet = new ArrayList<String>(alfa.length());

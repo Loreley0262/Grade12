@@ -9,12 +9,12 @@ public class Encrypt {
     Scanner scan;
     String alfa = "abcdefghijklmnopqrstuvwxyz";
     String plaintext;
-    String ciphertext;
+    static String ciphertext;
+    String word;
 
-
-    public String encryption(String word) {
-        ciphertext = "asdf";
+    public static String encryption(String word) {
         return ciphertext;
     }
+
 
 }
