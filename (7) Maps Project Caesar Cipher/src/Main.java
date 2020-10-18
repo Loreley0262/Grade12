@@ -23,74 +23,35 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        TreeMap<OrigText, Shift> map = new TreeMap<>();
-
-        System.out.println("key write num from 1 to 25");
-        int num = 1;
-        String string = "abcdefghijklmnopqrstuvwxyz";
-        OrigText text = new OrigText(string);
-        char[] test = text.toCharArray(text.origWord);
-        Shift shift = new Shift(num);
-        System.out.println(test);
-
-        for (int i = 0; i<string.length(); i++){
-            if (test[i] == 'a'){
-                System.out.println("hi");
-            }
+        String alfa = "abcdefghijklmnopqrstuvwxyz";
+        System.out.println("pick a word");
+        String word = scan.next();
+        System.out.println("pick a number to shift by");
+        int shift = scan.nextInt();
+        //e(x) = (x+k) (mod26)
+        HashMap<String, String> encrypt = new HashMap<>();
+        HashMap<String, String> decrypt = new HashMap<>();
+        ArrayList<String> alphabet = new ArrayList<String>(alfa.length());
+        for (int i =0; i<alfa.length(); i++){
+            String letter = alfa.substring(i, i+1);
+            alphabet.add(letter);
         }
-
-        map.put(text, shift);
-
-        Set<Map.Entry<OrigText, Shift>> set = map.entrySet();
-        Iterator<Map.Entry<OrigText, Shift>> iterator = set.iterator();
-        while (iterator.hasNext()){
-            Map.Entry<OrigText, Shift> entry = iterator.next();
-            System.out.println(entry.getKey() + "\t" + entry.getValue());
-        }
-
-        char[] alfa = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        char[] plaintext = text.toCharArray(text.origWord);
-        int[] noms = new int[alfa.length];
-        int[] plainNoms = new int[noms.length];
-        Encrypt.assignNums(alfa, noms);
-        Encrypt.assignNums(plaintext, plainNoms);
-
-        for (int i = 0; i<plaintext.length; i++){
-            plainNoms[i] = Character.forDigit(noms[i], 36);
-            System.out.print(plaintext[i] + " = " + plainNoms[i] + "\t");
-        }
-        System.out.println("\n\n");
-        for (int i = 0; i<plaintext.length; i++){
-            plainNoms[i] = plainNoms[i]+num;
-            System.out.print(Encrypt.assignLetters(plainNoms[i]) + " = " + plainNoms[i] + "\t");
-        }
-
-
-//        int[] noms = new int[alfa.length];
-//        Encrypt.assignNums(alfa, noms);
-//
-//        System.out.println();
-//
-//        char[] x = new char[alfa.length];
-//        for (int i=0; i<noms.length; i++){
-//            x[i] = Character.forDigit(noms[i], 36);
+//        for (int i =0; i<alfa.length(); i++){
+//            encrypt.put(alphabet.get(i), alphabet.get((i+shift)%26));
+//            decrypt.put(alphabet.get((i+shift)%26), alphabet.get(i));
 //        }
-//
-//
-//        char ch = 'a';
-//        char ch2 = 'z';
+//        for (int i =0; i<word.length(); i++){
+//            String letter = word.substring(i, i+1);
+//            ciphertext = ciphertext + encrypt.get(letter);
+//        }
+//        for (int i =0; i<word.length(); i++){
+//            String letter = ciphertext.substring(i, i+1);
+//            plaintext = plaintext + decrypt.get(letter);
+//        }
+//        System.out.println(ciphertext);
+//        System.out.println(plaintext);
 
-
-
-
-//      e(x) = (x+k) (mod26)
-//      e(x) = encryption function
-//       x = character being encrypted after being changed to number
-//       k = key (shift) applied to x
-//       results in number to be translated to letter
-
-        //so like num should mod to determine shift, get alfa[modded num] i think? ye
-
+        System.out.println(Encrypt.e);
     }
 
 
