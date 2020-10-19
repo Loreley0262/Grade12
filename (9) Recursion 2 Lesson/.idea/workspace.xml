@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6e561a-ed53-456c-8107-90ec3e1dd717" name="Default Changelist" comment="" />
+    <list default="true" id="f9c78694-6499-48d8-b7dc-0b1d7e64f215" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1j74jrVWipnjsiucQyVcQWq5c4y" />
+  <component name="ProjectId" id="1j7AWdFDiknom5wVnrBvQ114F8D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,16 +43,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="(9) Recursion 2 Lesson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef6e561a-ed53-456c-8107-90ec3e1dd717" name="Default Changelist" comment="" />
-      <created>1603141936329</created>
+      <changelist id="f9c78694-6499-48d8-b7dc-0b1d7e64f215" name="Default Changelist" comment="" />
+      <created>1603144790631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603141936329</updated>
+      <updated>1603144790631</updated>
     </task>
     <servers />
   </component>
@@ -66,16 +79,23 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1603144615857">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603144911813">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603144615857" />
-    <state x="102" y="50" key="new project wizard" timestamp="1603144625286">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1603144911813" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1603144911813">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1603144625286" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1603144911813" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1603144911812">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1603144911812" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1603144911813">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603144911813" />
   </component>
 </project>
