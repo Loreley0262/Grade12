@@ -16,18 +16,19 @@ public class Main {
         int[] sequence = new int[a];
         //base case
         if(a==1||a==2){
-            return 1;
+            sequence[a] = 1;
         }
         //recursive step
-        result = a-1+fibo(a-2);
+        sequence[a] = fibo(a-1);
+        System.out.println(result);
         return result;
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println(multiRec(3,2));
-        System.out.println("how many numbers in the sequence should be printed?");
-        int fiboLength = 3;
-        System.out.println(fibo(fiboLength));
+        System.out.println("index of num in sequence to be printed");
+        int fibothnum = 3;
+        System.out.println(fibo(fibothnum));
 //        int fiboLength = scan.nextInt();
     }
 }
