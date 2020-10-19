@@ -14,9 +14,9 @@ public class Main {
     /*this is recursion
     ////recursion is a method that calls on itself////
     * must have one or more base cases to solve, prevent infinite recursion
-    *   infinite recursion goes on forever, is bad
     * base cases are easy to solve cases [ex. if (b==0) return 1;]
-    *   simple cases that can be solved directly
+        simple cases that can be solved directly
+        base case must return smth, otherwise =  infinite recursion  = bad
     * kinda like loops but more
     * */
 
