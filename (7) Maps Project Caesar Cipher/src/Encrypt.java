@@ -17,7 +17,7 @@ public class Encrypt {
     static HashMap<String, String> decrypt = new HashMap<>();
     static ArrayList<String> alphabet = new ArrayList<String>(alfa.length());
 
-    public static String decryption(String word, int shift) {
+    public static ArrayList<String> createAlphabet(String word, int shift){
         for (int i =0; i<alfa.length(); i++){
             String letter = alfa.substring(i, i+1);
             alphabet.add(letter);
@@ -26,29 +26,34 @@ public class Encrypt {
             encrypt.put(alphabet.get(i), alphabet.get((i+shift)%26));
             decrypt.put(alphabet.get((i+shift)%26), alphabet.get(i));
         }
-        for (int i =0; i<word.length(); i++){
-            String letter = ciphertext.substring(i, i+1);
-            plaintext = plaintext + decrypt.get(letter);
-        }
-        return plaintext;
+        return alphabet;
     }
-
 
     public static String encryption(String word, int shift) {
-        for (int i =0; i<alfa.length(); i++){
-            String letter = alfa.substring(i, i+1);
-            alphabet.add(letter);
-        }
-        for (int i =0; i<alfa.length(); i++){
-            encrypt.put(alphabet.get(i), alphabet.get((i+shift)%26));
-            decrypt.put(alphabet.get((i+shift)%26), alphabet.get(i));
-        }
+        createAlphabet(alfa, shift);
         for (int i =0; i<word.length(); i++){
             String letter = word.substring(i, i+1);
-            ciphertext = ciphertext + encrypt.get(letter);
+            if (ciphertext == null){
+                ciphertext = encrypt.get(letter);
+            }
+            else{
+                ciphertext = ciphertext + encrypt.get(letter);
+            }
         }
+        System.out.println(ciphertext);
         return ciphertext;
     }
+    public static String decryption(String word, int shift) {
+        createAlphabet(alfa, shift);
+        encryption(word, shift);
+        for (int i =0; i<word.length(); i++){
+            String letter = ciphertext.substring(i, i+1);
+            String temp = decrypt.get(letter);
+            plaintext = plaintext + temp;
+            System.out.println(decrypt.get(letter));
+        }
+        return plaintext;
 
+    }
 
 }
