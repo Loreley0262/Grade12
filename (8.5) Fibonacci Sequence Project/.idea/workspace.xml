@@ -43,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(8) Recursion 1 Lesson" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -79,5 +80,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="171" key="FileChooserDialogImpl" timestamp="1603141991932">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="499" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603141991932" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603142016635">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1603142016635" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1603142016635">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1603142016635" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1603142016635">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1603142016635" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1603142016635">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603142016635" />
+    <state x="102" y="50" key="new project wizard" timestamp="1603141933733">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1603141933733" />
   </component>
 </project>
