@@ -46,11 +46,11 @@ public class Encrypt {
     public static String decryption(String word, int shift) {
         createAlphabet(alfa, shift);
         encryption(word, shift);
-        for (int i =0; i<word.length(); i++){
-            String letter = ciphertext.substring(i, i+1);
-            String temp = decrypt.get(letter);
-            plaintext = plaintext + temp;
-            System.out.println(decrypt.get(letter));
+        for (int i=0; i<ciphertext.length()/2; i++){
+            String temp = ciphertext.substring(i,i+1);
+            String letter = decrypt.get(temp);
+            plaintext = plaintext + letter;
+            System.out.println(decrypt.get(temp));
         }
         return plaintext;
 

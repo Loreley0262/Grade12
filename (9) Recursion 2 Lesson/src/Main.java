@@ -21,6 +21,11 @@ Then move n-1 rings from p2 to p3
 The inductive reasoning and the recursive call
 handles to the rest
     * */
+
+    public static void hanoi(int n, String to, String from, String spare){
+        
+    }
+
     public static void main(String[] args) {
         System.out.println("hello");
     }
