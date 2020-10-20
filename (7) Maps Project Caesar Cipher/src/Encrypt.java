@@ -10,8 +10,8 @@ public class Encrypt {
 //    results in number to be translated to letter
     Scanner scan;
     static String alfa = "abcdefghijklmnopqrstuvwxyz";
-    static String plaintext;
-    static String ciphertext;
+    static String plaintext = "";
+    static String ciphertext = "";
     String word;
     static HashMap<String, String> encrypt = new HashMap<>();
     static HashMap<String, String> decrypt = new HashMap<>();
@@ -40,17 +40,13 @@ public class Encrypt {
                 ciphertext = ciphertext + encrypt.get(letter);
             }
         }
-        System.out.println(ciphertext);
         return ciphertext;
     }
     public static String decryption(String word, int shift) {
         createAlphabet(alfa, shift);
-        encryption(word, shift);
-        for (int i=0; i<ciphertext.length()/2; i++){
+        for (int i=0; i<ciphertext.length(); i++){
             String temp = ciphertext.substring(i,i+1);
-            String letter = decrypt.get(temp);
-            plaintext = plaintext + letter;
-            System.out.println(decrypt.get(temp));
+            plaintext = plaintext + decrypt.get(temp);
         }
         return plaintext;
 
