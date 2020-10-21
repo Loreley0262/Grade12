@@ -25,6 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -36,7 +43,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gridder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(3) PolyAbstract Lesson" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="(10.5) Merging Two Arrays Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,9 +83,45 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1603315516564">
+    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1603317401169">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603315516564" />
+    <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1603317401169" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1603317518099">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603317518099" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603317388589">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1603317388589" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1603317388589">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1603317388589" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1603317388589">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1603317388589" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1603317388589">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603317388589" />
+    <state x="92" y="92" width="1256" height="676" key="dock-window-1" timestamp="1603316857582">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="dock-window-1/0.0.1440.860@0.0.1440.860" timestamp="1603316857582" />
+    <state x="230" y="294" width="1256" height="676" key="dock-window-2" timestamp="1603316857582">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="230" y="294" width="1256" height="676" key="dock-window-2/0.0.1440.860@0.0.1440.860" timestamp="1603316857582" />
+    <state x="0" y="0" width="1256" height="676" key="dock-window-3" timestamp="1603316857582">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="0" width="1256" height="676" key="dock-window-3/0.0.1440.860@0.0.1440.860" timestamp="1603316857582" />
+    <state x="149" y="271" width="1256" height="676" key="dock-window-4" timestamp="1603316857582">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="149" y="271" width="1256" height="676" key="dock-window-4/0.0.1440.860@0.0.1440.860" timestamp="1603316857582" />
   </component>
 </project>
