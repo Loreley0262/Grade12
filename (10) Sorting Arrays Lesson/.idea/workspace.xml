@@ -25,6 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -36,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(10.5) Merging Two Arrays Project" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,12 +66,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="171" key="FileChooserDialogImpl" timestamp="1603315212097">
+    <state x="499" y="171" key="FileChooserDialogImpl" timestamp="1603316541276">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="499" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603315212097" />
+    <state x="499" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603316541276" />
     <state x="102" y="50" key="new project wizard" timestamp="1603315213978">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
