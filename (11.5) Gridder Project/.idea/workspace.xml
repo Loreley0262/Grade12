@@ -26,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1jCk8Snql7wDm6MEgqOZXXRkvhq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,7 +37,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Gridder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -74,7 +73,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603315368480">
@@ -93,9 +91,5 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603315368480" />
-    <state x="221" y="75" key="SettingsEditor" timestamp="1603315438986">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="221" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1603315438986" />
   </component>
 </project>

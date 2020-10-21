@@ -656,6 +656,7 @@ public class Gridder extends javax.swing.JFrame
 
     private void ProblemOneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemOneActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_ProblemOneActionPerformed
 
     private void ProblemTwoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemTwoActionPerformed
@@ -697,7 +698,15 @@ public class Gridder extends javax.swing.JFrame
             }
         });
     }
-    
+
+
+
+
+
+
+
+
+
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton ProblemEight;
