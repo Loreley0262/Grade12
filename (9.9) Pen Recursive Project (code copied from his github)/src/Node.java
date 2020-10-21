@@ -27,6 +27,6 @@ public class Node {
 
     @Override
     public String toString() {
-        return "" + id;
+        return "id: " + id + "\tleft: " + left + "\tright: " + right;
     }
 }

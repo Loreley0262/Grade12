@@ -5,7 +5,6 @@ public class Main {
     static int n2 = 1;
     static int n3 = 0;
     public static int fibo(int n){
-        int result;
         //base case
         if (n<=0){
             return 0;
@@ -23,7 +22,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("how many nums in sequence should be shown?");
-        int fiboNums = 6;
+        int fiboNums = scan.nextInt();
         fibo(fiboNums);
     }
 }

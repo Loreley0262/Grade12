@@ -16,6 +16,23 @@ public class Main {
     }
 
     public static void getLeafNodes(Node n){
+        //base case
+        if (n.left == 0 && n.right == 0){
+            System.out.println(n);
+        }
+        //recursive step
+        else{
+            if (n.left !=0 && n.right !=0){
+                getLeafNodes(getNode(n.left));
+                getLeafNodes(getNode(n.right));
+            }
+            if (n.right == 0){
+                getLeafNodes(getNode(n.left));
+            }
+            if (n.left == 0){
+                getLeafNodes(getNode(n.right));
+            }
+        }
 
     }
 
@@ -34,3 +51,19 @@ public class Main {
         getLeafNodes(nodes.get(0));
     }
 }
+//ANS: 13 14 12 11 4 17 19 20
+/*
+                                1
+                            /       \
+                           2         3
+                         /  \       / \
+                       6     7    (4)  5
+                      /      /\         \
+                     8      10 (11)     15
+                    /      /              \
+                   9     (12)              16
+                  / \                     /   \
+                (13)(14)                (17)  18
+                                              / \
+                                           (19)(20)
+*/
