@@ -22,35 +22,47 @@ public class Main {
         }
         //recursive call
         else {
-            int[] leftArray = new int[array.length / 2];
-            for (int i = 0; i < leftArray.length; i++) {
-                leftArray[i] = array[i];
+            if (array.length ==2 && array[0]>array[1]){
+                int temp = array[0];
+                array[0] = array[1];
+                array[1] = temp;
+                return array;
             }
-            System.out.println("larry length: " + leftArray.length);
+            int[] leftArray = new int[array.length / 2];
+            System.arraycopy(array, 0, leftArray, 0, leftArray.length);
             mergeSort(leftArray);
 
             int[] rightArray = new int[array.length - leftArray.length];
-            for (int i = 0; i < rightArray.length; i++) {
-                rightArray[i] = array[i + leftArray.length];
-            }
+            if (rightArray.length >= 0) System.arraycopy(array, leftArray.length, rightArray, 0, rightArray.length);
             mergeSort(rightArray);
             array = merge(leftArray, rightArray);
         }
         return array;
     }
     public static void main (String[] args){
+//        int[] annaray = new int[8];
+//        annaray[0] = 5;
+//        annaray[1] = 78;
+//        annaray[2] = 56;
+//        annaray[3] = 32;
+//        annaray[4] = 15;
+//        annaray[5] = 23;
+//        annaray[6] = 56;
+//        annaray[7] = 11;
         int[] annaray = new int[8];
-        annaray[0] = 5;
-        annaray[1] = 78;
-        annaray[2] = 56;
-        annaray[3] = 32;
-        annaray[4] = 15;
-        annaray[5] = 23;
-        annaray[6] = 56;
-        annaray[7] = 11;
+        annaray[0] = 3;
+        annaray[1] = 4;
+        annaray[2] = 5;
+        annaray[3] = 2;
+        annaray[4] = 8;
+        annaray[5] = 6;
+        annaray[6] = 7;
+        annaray[7] = 1;
+
         int[] barry = new int[2];
         barry[0] = 9;
         barry[1] = 99;
+
         int[] carry = new int[8];
         carry[0] = 5;
         carry[1] = 11;
@@ -60,8 +72,10 @@ public class Main {
         carry[5] = 56;
         carry[6] = 56;
         carry[7] = 78;
+
         System.out.println(Arrays.toString(annaray));
         System.out.println(Arrays.toString(mergeSort(annaray)));
+        System.out.println();
         System.out.println(Arrays.toString(carry));
     }
 }
