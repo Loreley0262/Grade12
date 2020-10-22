@@ -17,31 +17,26 @@ public class Main {
 
     public static int[] mergeSort(int[] array) {
         //base case
-        if (array.length == 2) {
-            if (array[0] < array[1]) {
-                int temp = array[0];
-                array[0] = array[1];
-                array[1] = temp;
-                return array;
-            }
-            //recursive call
-            else {
-                int[] leftArray = new int[array.length / 2];
-                for (int i = 0; i < leftArray.length; i++) {
-                    leftArray[i] = array[i];
-                }
-                System.out.println("larry length: " + leftArray.length);
-                mergeSort(leftArray);
-
-                int[] rightArray = new int[array.length - leftArray.length];
-                for (int i = 0; i < rightArray.length; i++) {
-                    rightArray[i] = array[i + leftArray.length];
-                }
-                mergeSort(rightArray);
-                return merge(leftArray, rightArray);
-            }
+        if (array.length == 1) {
+            return array;
         }
-        return null;
+        //recursive call
+        else {
+            int[] leftArray = new int[array.length / 2];
+            for (int i = 0; i < leftArray.length; i++) {
+                leftArray[i] = array[i];
+            }
+            System.out.println("larry length: " + leftArray.length);
+            mergeSort(leftArray);
+
+            int[] rightArray = new int[array.length - leftArray.length];
+            for (int i = 0; i < rightArray.length; i++) {
+                rightArray[i] = array[i + leftArray.length];
+            }
+            mergeSort(rightArray);
+            array = merge(leftArray, rightArray);
+        }
+        return array;
     }
     public static void main (String[] args){
         int[] annaray = new int[8];
