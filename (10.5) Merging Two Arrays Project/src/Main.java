@@ -21,9 +21,15 @@ public class Main {
 
     }
     */
+    public static void mergeArray(int[] a, int[] b){
+        //base case
+        if (a[]<b[]){
+            System.out.println(n);
+        }
+    }
 
     public static void main(String[] args) {
-    /*    int[] ay = new int[6];
+        int[] ay = new int[6];
         int[] bee = new int[9];
         int[] merged = new int[ay.length + bee.length];
 
@@ -36,17 +42,7 @@ public class Main {
                                 bee[6] = 8;
                                 bee[7] = 5;
                                 bee[8] = 2;
-
-        for (int i = 0; i< ay.length; i++){
-            System.out.println(ay[i]);
-        }
-        System.out.println();
-        System.out.println();
-        for (int i = 0; i< bee.length; i++){
-            System.out.println(bee[i]);
-        }
-    */
-        
+        for (int)
     }
 }
 /*
