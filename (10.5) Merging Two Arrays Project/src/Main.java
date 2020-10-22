@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     /*
     public static void getLeafNodes(Node n){
@@ -21,15 +23,45 @@ public class Main {
 
     }
     */
-    public static void mergeArray(int[] a, int[] b){
-        //base case
-        if (a[]<b[]){
-            System.out.println(n);
+
+    public static int[] merge(int[] a, int[] b){
+        int[] c = new int[a.length+b.length];
+        int i;
+        for (i = 0; i<c.length; i++){
+            if (i<a.length){
+                c[i] = a[i];
+            }
+            else{
+                c[i] = b[i-a.length];
+            }
         }
+        return c;
+    }
+
+    public static int[] mergeSort(int[] array){
+        //base case
+        if (array.length == 1){
+            return array;
+        }
+        //recursive call
+        else{
+            int[] leftArray = new int[array.length/2];
+            for (int i = 0; i<leftArray.length; i++){
+                leftArray[i] = array[i];
+            }
+            mergeSort(leftArray);
+            int[] rightArray = new int[array.length-leftArray.length];
+            for (int i = 0; i<rightArray.length; i++){
+                rightArray[i] = array[i+leftArray.length];
+            }
+            mergeSort(rightArray);
+            return merge(leftArray, rightArray);
+        }
+
     }
 
     public static void main(String[] args) {
-        int[] ay = new int[6];
+        /*int[] ay = new int[6];
         int[] bee = new int[9];
         int[] merged = new int[ay.length + bee.length];
 
@@ -42,7 +74,31 @@ public class Main {
                                 bee[6] = 8;
                                 bee[7] = 5;
                                 bee[8] = 2;
-        for (int)
+*/
+        int[] array = new int[8];
+        array[0] = 5;
+        array[1] = 78;
+        array[2] = 56;
+        array[3] = 32;
+        array[4] = 15;
+        array[5] = 23;
+        array[6] = 56;
+        array[7] = 11;
+        int[] barry = new int[2];
+        barry[0] = 9;
+        barry[1] = 99;
+        int[] carry = new int[8];
+        carry[0] = 5;
+        carry[1] = 11;
+        carry[2] = 15;
+        carry[3] = 23;
+        carry[4] = 32;
+        carry[5] = 56;
+        carry[6] = 56;
+        carry[7] = 78;
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(mergeSort(array)));
+        System.out.println(Arrays.toString(carry));
     }
 }
 /*
