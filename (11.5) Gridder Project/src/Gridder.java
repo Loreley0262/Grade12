@@ -653,42 +653,134 @@ public class Gridder extends javax.swing.JFrame
 
 
 
-
+    //DON'T FORGET TO draw() AFTER EACH PROBLEM OR IT WON'T WORK!!!
     private void ProblemOneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemOneActionPerformed
+        //press button, turn random location on grid white, loop 100 times
         // TODO add your handling code here:
         
     }//GEN-LAST:event_ProblemOneActionPerformed
 
     private void ProblemTwoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemTwoActionPerformed
+        //press button is pressed, select a random
+        //column.  Set all the squares in this column to
+        //white.  Then draw().
         // TODO add your handling code here:
     }//GEN-LAST:event_ProblemTwoActionPerformed
 
     private void ProblemThreeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemThreeActionPerformed
+        //press button, make top half of grid white, bottom black
+            //HINT: USE clearGrid() to help
         // TODO add your handling code here:
     }//GEN-LAST:event_ProblemThreeActionPerformed
 
     private void ProblemFourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemFourActionPerformed
+        //press button, count num of white squares in grid, print total in textInfo
+            //HINT:textInfo.setText( Integer.toString(count) );
         // TODO add your handling code here:
     }//GEN-LAST:event_ProblemFourActionPerformed
 
     private void ProblemFiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemFiveActionPerformed
+        //press button, clear grid, create white X (line from top
+        //  left corner to bottom right corner and bottom left
+        //  corner to top right corner)
+        //clearGrid()
         // TODO add your handling code here:
     }//GEN-LAST:event_ProblemFiveActionPerformed
 
     private void ProblemSixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemSixActionPerformed
+        //press button, invert the grid (make white squares black, black squares white)
         // TODO add your handling code here:
     }//GEN-LAST:event_ProblemSixActionPerformed
 
     private void ProblemSevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemSevenActionPerformed
+        //needs temp grid
+        //press button, turn black squares touching TWO white squares white.
+        //Consider all eight directions! (so including diagonals i guess)
         // TODO add your handling code here:
+        //create temp
+        /*
+        int[][] temp = new int[100][100];
+//copy contents of grid into temp
+        for (int row=0; row<100; row++)
+            for (int col=0; col<100; col++)
+                temp[col][row] = grid[col][row];
+//scan grid and MAKE CHANGES TO TEMP, not grid!
+//stop and think about WHY we don't want to change the original grid.
+//note: I will only check rows/columns 1-98 so my code won't break when I hit
+//end edge!
+        for (int row=1; row<99; row++)
+            for (int col=1; col<99; col++) {
+                if ( grid[col][row-1]==1 ) //check above temp[col][row]==1;
+                    if ([col][row+1]==1) //check below
+                temp[col][row]==1;
+                if ( grid[col-1][row]==1 ) //check to the left
+                    temp[col][row]==1;
+                if ( grid[col+1][row]==1) //check to the right
+            } //col
+    } //row
+//and finally, make grid equal temp and draw
+    grid=temp;
+    draw();*/
     }//GEN-LAST:event_ProblemSevenActionPerformed
 
     private void ProblemEightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemEightActionPerformed
+        //press button, move all squares one position to left
+        //leftmost column becomes rightmost column
+        //create scrolling effect with drawing
         // TODO add your handling code here:
+        //create temp
+        /*
+        int[][] temp = new int[100][100];
+//copy contents of grid into temp
+        for (int row=0; row<100; row++)
+            for (int col=0; col<100; col++)
+                temp[col][row] = grid[col][row];
+//scan grid and MAKE CHANGES TO TEMP, not grid!
+//stop and think about WHY we don't want to change the original grid.
+//note: I will only check rows/columns 1-98 so my code won't break when I hit
+//end edge!
+        for (int row=1; row<99; row++)
+            for (int col=1; col<99; col++) {
+                if ( grid[col][row-1]==1 ) //check above temp[col][row]==1;
+                    if ([col][row+1]==1) //check below
+                temp[col][row]==1;
+                if ( grid[col-1][row]==1 ) //check to the left
+                    temp[col][row]==1;
+                if ( grid[col+1][row]==1) //check to the right
+            } //col
+    } //row
+//and finally, make grid equal temp and draw
+    grid=temp;
+    draw();*/
     }//GEN-LAST:event_ProblemEightActionPerformed
 
     private void ProblemNineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemNineActionPerformed
+        //press button, rotate the grid 90 degrees to right
         // TODO add your handling code here:
+        //create temp
+        /*
+        int[][] temp = new int[100][100];
+//copy contents of grid into temp
+        for (int row=0; row<100; row++)
+            for (int col=0; col<100; col++)
+                temp[col][row] = grid[col][row];
+//scan grid and MAKE CHANGES TO TEMP, not grid!
+//stop and think about WHY we don't want to change the original grid.
+//note: I will only check rows/columns 1-98 so my code won't break when I hit
+//end edge!
+        for (int row=1; row<99; row++)
+            for (int col=1; col<99; col++) {
+                if ( grid[col][row-1]==1 ) //check above temp[col][row]==1;
+                    if ([col][row+1]==1) //check below
+                temp[col][row]==1;
+                if ( grid[col-1][row]==1 ) //check to the left
+                    temp[col][row]==1;
+                if ( grid[col+1][row]==1) //check to the right
+            } //col
+    } //row
+//and finally, make grid equal temp and draw
+    grid=temp;
+    draw();*/
     }//GEN-LAST:event_ProblemNineActionPerformed
 
     public static void main(String args[]) {
