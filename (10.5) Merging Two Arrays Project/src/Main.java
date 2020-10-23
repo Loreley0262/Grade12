@@ -21,23 +21,41 @@ public class Main {
             return array;
         }
         //recursive call
-        else {
-            if (array.length ==2 && array[0]>array[1]){
-                int temp = array[0];
-                array[0] = array[1];
-                array[1] = temp;
-                return array;
+        /*
+        else{
+            if (n.left !=0 && n.right !=0){
+                getLeafNodes(getNode(n.left));
+                getLeafNodes(getNode(n.right));
             }
-            int[] leftArray = new int[array.length / 2];
-            System.arraycopy(array, 0, leftArray, 0, leftArray.length);
-            mergeSort(leftArray);
+            if (n.right == 0){
+                getLeafNodes(getNode(n.left));
+            }
+            if (n.left == 0){
+                getLeafNodes(getNode(n.right));
+            }
+            ------------------------------
 
+        * */
+        else {
+            int[] leftArray = new int[array.length / 2];
             int[] rightArray = new int[array.length - leftArray.length];
-            if (rightArray.length >= 0) System.arraycopy(array, leftArray.length, rightArray, 0, rightArray.length);
+            System.arraycopy(array, 0, leftArray, 0, leftArray.length);
+            if (array.length - leftArray.length >= 0)
+                System.arraycopy(array, leftArray.length, rightArray, 0, array.length - leftArray.length);
+            if (leftArray.length ==1){
+                if (leftArray[0] > rightArray[0]){
+                    int temp = rightArray[0];
+                    rightArray[0] = leftArray[0];
+                    leftArray[0] = temp;
+                }
+            }
+
+            mergeSort(leftArray);
             mergeSort(rightArray);
+
             array = merge(leftArray, rightArray);
+            return array;
         }
-        return array;
     }
     public static void main (String[] args){
 //        int[] annaray = new int[8];
@@ -51,19 +69,25 @@ public class Main {
 //        annaray[7] = 11;
         int[] annaray = new int[8];
         annaray[0] = 3;
-        annaray[1] = 4;
-        annaray[2] = 5;
+        annaray[1] = 5;
+        annaray[2] = 4;
         annaray[3] = 2;
         annaray[4] = 8;
         annaray[5] = 6;
         annaray[6] = 7;
         annaray[7] = 1;
 
-        int[] barry = new int[2];
-        barry[0] = 9;
-        barry[1] = 99;
+        int[] barry = new int[8];
+        barry[0] = 1;
+        barry[1] = 2;
+        barry[2] = 3;
+        barry[3] = 4;
+        barry[4] = 5;
+        barry[5] = 6;
+        barry[6] = 7;
+        barry[7] = 8;
 
-        int[] carry = new int[8];
+        /*int[] carry = new int[8];
         carry[0] = 5;
         carry[1] = 11;
         carry[2] = 15;
@@ -72,11 +96,12 @@ public class Main {
         carry[5] = 56;
         carry[6] = 56;
         carry[7] = 78;
+*/
 
         System.out.println(Arrays.toString(annaray));
         System.out.println(Arrays.toString(mergeSort(annaray)));
         System.out.println();
-        System.out.println(Arrays.toString(carry));
+        System.out.println(Arrays.toString(barry));
     }
 }
 /*
