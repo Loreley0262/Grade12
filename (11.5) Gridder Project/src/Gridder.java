@@ -758,6 +758,13 @@ public class Gridder extends javax.swing.JFrame
         //stop and think about WHY we don't want to change the original grid.
         //note: I will only check rows/columns 1-98 so my code won't break when I hit
         //end edge!
+
+        /*
+        maybe scan grid to see if black or white
+        look at squares around subject square to determine
+        change on temp but keep looking at grid to determine
+        then at the end change grid to equal temp?
+        * */
         for (int row = 1; row < 99; row++){
             for (int col = 1; col < 99; col++) {
                 if (temp[col][row - 1] == 1) { //check above temp[col][row]==1;
