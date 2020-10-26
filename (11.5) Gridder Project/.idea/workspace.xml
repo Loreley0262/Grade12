@@ -37,6 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../(11) Two D Arrays Lesson" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Gridder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -80,21 +81,39 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603746921836" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603748584082">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603749079010">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1603748584082" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1603748584081">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1603749079010" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1603749079010">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1603748584081" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1603748584081">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1603749079010" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1603749079010">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1603748584081" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1603748584081">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1603749079010" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1603749079010">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603748584081" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603749079010" />
+    <state x="221" y="75" key="SettingsEditor" timestamp="1603749120071">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1603749120071" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Gridder.java</url>
+          <line>742</line>
+          <properties class="Gridder" method="ProblemSevenActionPerformed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
