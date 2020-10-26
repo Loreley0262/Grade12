@@ -657,7 +657,8 @@ public class Gridder extends javax.swing.JFrame
     private void ProblemOneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemOneActionPerformed
         //press button, turn random location on grid white, loop 100 times
         // TODO add your handling code here:
-        
+        grid[(int) (Math.random()*99)][(int) (Math.random()*99)] = 1;
+        draw();
     }//GEN-LAST:event_ProblemOneActionPerformed
 
     private void ProblemTwoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemTwoActionPerformed
@@ -665,18 +666,43 @@ public class Gridder extends javax.swing.JFrame
         //column.  Set all the squares in this column to
         //white.  Then draw().
         // TODO add your handling code here:
+        int num = (int) (Math.random()*99);
+        for (int i = 0; i<gridCount; i++){
+            grid[num][i] = 1;
+        }
+        draw();
+
     }//GEN-LAST:event_ProblemTwoActionPerformed
 
     private void ProblemThreeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemThreeActionPerformed
         //press button, make top half of grid white, bottom black
             //HINT: USE clearGrid() to help
         // TODO add your handling code here:
+        for (int i = 0; i<gridCount; i++){
+            for (int j = 0; j<gridCount/2; j++){
+                grid[i][j] = 1;
+            }
+        }
+
+        draw();
+
     }//GEN-LAST:event_ProblemThreeActionPerformed
 
     private void ProblemFourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemFourActionPerformed
         //press button, count num of white squares in grid, print total in textInfo
             //HINT:textInfo.setText( Integer.toString(count) );
         // TODO add your handling code here:
+        int count = 0;
+        for (int i = 0; i<gridCount; i++){
+            for (int j = 0; j<gridCount; j++){
+                if (grid[i][j]==1) {
+                    count++;
+                }
+            }
+        }
+        textInfo.setText( Integer.toString(count));
+        draw();
+
     }//GEN-LAST:event_ProblemFourActionPerformed
 
     private void ProblemFiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemFiveActionPerformed
@@ -685,11 +711,22 @@ public class Gridder extends javax.swing.JFrame
         //  corner to top right corner)
         //clearGrid()
         // TODO add your handling code here:
+        clearGrid();
+        for (int i = 0; i<gridCount; i++){
+            grid[i][i] = 1;
+        }
+        for (int i = 0; i<gridCount; i++){
+            grid[][] = 1;
+        }
+        draw();
+
     }//GEN-LAST:event_ProblemFiveActionPerformed
 
     private void ProblemSixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemSixActionPerformed
         //press button, invert the grid (make white squares black, black squares white)
         // TODO add your handling code here:
+        draw();
+
     }//GEN-LAST:event_ProblemSixActionPerformed
 
     private void ProblemSevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemSevenActionPerformed
@@ -721,6 +758,8 @@ public class Gridder extends javax.swing.JFrame
 //and finally, make grid equal temp and draw
     grid=temp;
     draw();*/
+        draw();
+
     }//GEN-LAST:event_ProblemSevenActionPerformed
 
     private void ProblemEightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemEightActionPerformed
@@ -752,6 +791,8 @@ public class Gridder extends javax.swing.JFrame
 //and finally, make grid equal temp and draw
     grid=temp;
     draw();*/
+        draw();
+
     }//GEN-LAST:event_ProblemEightActionPerformed
 
     private void ProblemNineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemNineActionPerformed
@@ -781,6 +822,8 @@ public class Gridder extends javax.swing.JFrame
 //and finally, make grid equal temp and draw
     grid=temp;
     draw();*/
+        draw();
+
     }//GEN-LAST:event_ProblemNineActionPerformed
 
     public static void main(String args[]) {
