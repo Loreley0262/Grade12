@@ -715,8 +715,8 @@ public class Gridder extends javax.swing.JFrame
         for (int i = 0; i<gridCount; i++){
             grid[i][i] = 1;
         }
-        for (int i = 0; i<gridCount; i++){
-            grid[][] = 1;
+        for (int i = 99; i>=0; i--){
+            grid[i][i] = 1;
         }
         draw();
 
