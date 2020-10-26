@@ -5,12 +5,54 @@ public class Main {
     public static int[] merge(int[] a, int[] b) {
         int[] c = new int[a.length + b.length];
         int i;
+        int posA = 0;
+        int posB = 0;
+        int posC = 0;
         for (i = 0; i < c.length; i++) {
-            if (i < a.length) {
-                c[i] = a[i];
-            } else {
-                c[i] = b[i - a.length];
+            if(a.length == posA){
+                c[posC] = b[posB];
+                posC++;
+                posB++;
+                if (c.length == posC){
+                    break;
+                }
             }
+            else if (b.length == posB){
+                c[posC] = a[posA];
+                posC++;
+                posA++;
+                if (c.length == posC){
+                    break;
+                }
+            }
+            if (a[posA] > b[posB]){
+                c[posC] = a[posA];
+                posC++;
+                posA++;
+                if (c.length == posC){
+                    break;
+                }
+            }
+            else if (a[posA] == b[posB]){
+                c[posC] = a[posA];
+                posC++;
+                posA++;
+                c[posC] = b[posB];
+                posC++;
+                posB++;
+                if (c.length == posC){
+                    break;
+                }
+            }
+            else{
+                c[posC] = b[posB];
+                posC++;
+                posB++;
+                if (c.length == posC){
+                    break;
+                }
+            }
+
         }
         return c;
     }
@@ -42,18 +84,22 @@ public class Main {
             System.arraycopy(array, 0, leftArray, 0, leftArray.length);
             if (array.length - leftArray.length >= 0)
                 System.arraycopy(array, leftArray.length, rightArray, 0, array.length - leftArray.length);
-            if (leftArray.length ==1){
-                if (leftArray[0] > rightArray[0]){
-                    int temp = rightArray[0];
-                    rightArray[0] = leftArray[0];
-                    leftArray[0] = temp;
-                }
-            }
 
-            mergeSort(leftArray);
-            mergeSort(rightArray);
+//            if (leftArray.length ==1){
+//                if (leftArray[0] > rightArray[0]){
+//                    int temp = rightArray[0];
+//                    rightArray[0] = leftArray[0];
+//                    leftArray[0] = temp;
+//                    array = merge(leftArray, rightArray);
+//                    return array;
+//                }
+//            }
+
+            leftArray = mergeSort(leftArray);
+            rightArray = mergeSort(rightArray);
 
             array = merge(leftArray, rightArray);
+
             return array;
         }
     }
@@ -68,8 +114,8 @@ public class Main {
 //        annaray[6] = 56;
 //        annaray[7] = 11;
         int[] annaray = new int[8];
-        annaray[0] = 3;
-        annaray[1] = 5;
+        annaray[0] = 5;
+        annaray[1] = 3;
         annaray[2] = 4;
         annaray[3] = 2;
         annaray[4] = 8;
