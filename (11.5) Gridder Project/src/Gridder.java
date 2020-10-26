@@ -792,6 +792,14 @@ public class Gridder extends javax.swing.JFrame
         //press button, move all squares one position to left
         //leftmost column becomes rightmost column
         //create scrolling effect with drawing
+        /*
+        maybe scan grid to see if black or white
+        look at squares to right, and copy onto temp
+        will need to look at edges of grid though...
+            change numbers in for loops to include whole grid?
+        change on temp but keep looking at grid to determine
+        then at the end change grid to equal temp?
+        * */
         // TODO add your handling code here:
         //create temp
 
