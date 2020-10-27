@@ -738,8 +738,7 @@ public class Gridder extends javax.swing.JFrame
 
     }//GEN-LAST:event_ProblemSixActionPerformed
 
-    /** --------------- finish this ---------------
-     */
+
     private void ProblemSevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemSevenActionPerformed
         //needs temp grid
         //press button, turn black squares touching TWO white squares white.
@@ -765,28 +764,49 @@ public class Gridder extends javax.swing.JFrame
         change on temp but keep looking at grid to determine
         then at the end change grid to equal temp?
         * */
-        for (int row = 1; row < 99; row++){
-            for (int col = 1; col < 99; col++) {
-                if (temp[col][row - 1] == 1) { //check above temp[col][row]==1;
-                    if (temp[col][row + 1] ==1){ //check below
-                        temp[col][row] = 1;
+        int whiteSquaresSurrounding = 0;
+        for (int row = 1; row < gridCount-1; row++) {//row
+            for (int col = 1; col < gridCount-1; col++) {//col
+                whiteSquaresSurrounding=0;
+                if (grid[col][row] == 0) {
+                    if (grid[col+1][row] == 1){ //right
+                        whiteSquaresSurrounding++;
                     }
+                    if (grid[col-1][row] == 1){//left
+                        whiteSquaresSurrounding++;
+                    }
+                    if (grid[col][row+1] == 1){//down
+                        whiteSquaresSurrounding++;
+                    }
+                    if (grid[col][row-1] == 1){//up
+                        whiteSquaresSurrounding++;
+                    }
+                    if (grid[col+1][row+1] == 1){//downright
+                        whiteSquaresSurrounding++;
+                    }
+                    if (grid[col+1][row-1] == 1){//upright
+                        whiteSquaresSurrounding++;
+                    }
+                    if (grid[col-1][row+1] == 1){//downleft
+                        whiteSquaresSurrounding++;
+                    }
+                    if (grid[col-1][row-1] == 1){//upleft
+                        whiteSquaresSurrounding++;
+                    }
+
                 }
-                if (temp[col - 1][row] == 1) { //check to the left
+                if (whiteSquaresSurrounding>=2){
                     temp[col][row] = 1;
                 }
-                if (temp[col + 1][row] == 1) { //check to the right
-                    temp[col][row] = 1;
-                }
-            } //col
+            }
+        }
+
         //and finally, make grid equal temp and draw
         grid=temp;
         draw();
-    } //row
+
 
 }//GEN-LAST:event_ProblemSevenActionPerformed
-
-
 
     private void ProblemEightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemEightActionPerformed
         //press button, move all squares one position to left
@@ -800,8 +820,10 @@ public class Gridder extends javax.swing.JFrame
         change on temp but keep looking at grid to determine
         then at the end change grid to equal temp?
         * */
+        //all squares move left
         // TODO add your handling code here:
         //create temp
+
 
         int[][] temp = new int[100][100];
         //copy contents of grid into temp
@@ -814,27 +836,67 @@ public class Gridder extends javax.swing.JFrame
         //stop and think about WHY we don't want to change the original grid.
         //note: I will only check rows/columns 1-98 so my code won't break when I hit
         //end edge!
-        for (int row = 1; row < 99; row++){
-            for (int col = 1; col < 99; col++) {
-                if (temp[col][row - 1] == 1) { //check above temp[col][row]==1;
-                    if (temp[col][row + 1] ==1){ //check below
+
+        /*
+        maybe scan grid to see if black or white
+        look at squares around subject square to determine
+        change on temp but keep looking at grid to determine
+        then at the end change grid to equal temp?
+        * */
+
+        //all move left!
+        for (int row = 0; row < gridCount; row++) {//row
+            for (int col = 0; col < gridCount; col++) {//col
+                if (col == 0){
+                    if (grid[gridCount-1][row] == 1){ //right
                         temp[col][row] = 1;
                     }
+                    else if (grid[gridCount-1][row] == 0){ //right
+                        temp[col][row] = 0;
+                    }
                 }
-                if (temp[col - 1][row] == 1) { //check to the left
+                if (row == 0){
+                    if (grid[col][gridCount-1] == 1){ //right
+                        temp[col][row] = 1;
+                    }
+                    else if (grid[col][gridCount-1] == 0){ //right
+                        temp[col][row] = 0;
+                    }
+                }
+                if (col == 99){
+                    if (grid[0][row] == 1){ //right
+                        temp[col][row] = 1;
+                    }
+                    else if (grid[0][row] == 0){ //right
+                        temp[col][row] = 0;
+                    }
+                    break;
+                }
+                if (row == 99){
+                    if (grid[col][0] == 1){ //right
+                        temp[col][row] = 1;
+                    }
+                    else if (grid[col][0] == 0){ //right
+                        temp[col][row] = 0;
+                    }
+                    break;
+                }
+                else if (grid[col+1][row] == 1){ //right
                     temp[col][row] = 1;
                 }
-                if (temp[col + 1][row] == 1) { //check to the right
-                    temp[col][row] = 1;
+                else if (grid[col+1][row] == 0){ //right
+                    temp[col][row] = 0;
                 }
-            } //col
-            //and finally, make grid equal temp and draw
-            grid=temp;
-            draw();
-        } //row
+            }
+        }
+
+        //and finally, make grid equal temp and draw
+        grid=temp;
         draw();
 
     }//GEN-LAST:event_ProblemEightActionPerformed
+
+    /** --------------- finish this --------------- **/
 
     private void ProblemNineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProblemNineActionPerformed
         //press button, rotate the grid 90 degrees to right
@@ -852,27 +914,18 @@ public class Gridder extends javax.swing.JFrame
         //stop and think about WHY we don't want to change the original grid.
         //note: I will only check rows/columns 1-98 so my code won't break when I hit
         //end edge!
-        for (int row = 1; row < 99; row++){
-            for (int col = 1; col < 99; col++) {
-                if (temp[col][row - 1] == 1) { //check above temp[col][row]==1;
-                    if (temp[col][row + 1] ==1){ //check below
-                        temp[col][row] = 1;
-                    }
+        for (int row = 0; row < gridCount; row++) {//row
+            for (int col = 0; col < gridCount; col++) {//col
+                if (grid[col][row] == 1){
+                    temp[][] = 1;
                 }
-                if (temp[col - 1][row] == 1) { //check to the left
-                    temp[col][row] = 1;
-                }
-                if (temp[col + 1][row] == 1) { //check to the right
-                    temp[col][row] = 1;
-                }
-            } //col
-            //and finally, make grid equal temp and draw
-            grid=temp;
-            draw();
-        } //row
-        draw();
-        draw();
+            }
+        }
 
+
+        clearGrid();
+        grid = temp;
+        draw();
     }//GEN-LAST:event_ProblemNineActionPerformed
 
     public static void main(String args[]) {
