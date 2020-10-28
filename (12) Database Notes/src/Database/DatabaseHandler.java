@@ -54,13 +54,13 @@ public class DatabaseHandler {
             return true;
         }
         catch (SQLException e){
-            JOptionPane.showMessageDialog(null, "Error:" + e.getMessage, "Error Occurred", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error:" + e.getLocalizedMessage(), "Error Occurred", JOptionPane.ERROR_MESSAGE);
             System.out.println("exception at execQuery" + e.getLocalizedMessage());
             return false;
         }
     }
 
-    public boolean execQuery(String query){
+    public ResultSet execQuery(String query){
         ResultSet resultSet;
         try {
             stmt = conn.createStatement();

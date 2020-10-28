@@ -51,7 +51,7 @@ public class Main {
 
     public static void main(String[] args) {
         DatabaseHandler handler = new DatabaseHandler();
-        members = new ArrayList<>();
+        ArrayList members = new ArrayList<Member>();
         Scanner scan = new Scanner(System.in);
         System.out.println("name?");
         String name = scan.next();
