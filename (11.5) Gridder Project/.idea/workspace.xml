@@ -82,10 +82,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1603746921836">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1603916908649">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603746921836" />
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603916908649" />
     <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1603836116837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -126,6 +126,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="230" y="166" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.860@0.0.1440.860" timestamp="1603836067343" />
+    <state x="102" y="50" key="new project wizard" timestamp="1603916909842">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="102" y="50" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1603916909842" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
