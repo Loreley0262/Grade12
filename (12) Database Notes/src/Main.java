@@ -32,6 +32,7 @@ public class Main {
     }
 
     public static void printMembers() throws SQLException{
+        ArrayList<Member> members = new ArrayList<>();
         String qu = "SELECT * FROM MEMBER"; //change select to delete to delete member
         ResultSet rs = handler.execQuery(qu);
 
@@ -49,19 +50,18 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         DatabaseHandler handler = new DatabaseHandler();
-        ArrayList<Member> members = new ArrayList<>();
-        Scanner scan = new Scanner(System.in);
-        System.out.println("name?");
-        String name = scan.next();
-        System.out.println("id");
-        String id = scan.next();
-        System.out.println("nickname");
-        String nickname = scan.next();
-        System.out.println("email");
-        String email = scan.next();
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("name?");
+//        String name = scan.next();
+//        System.out.println("id");
+//        String id = scan.next();
+//        System.out.println("nickname");
+//        String nickname = scan.next();
+//        System.out.println("email");
+//        String email = scan.next();
         add();
-        printMembers();
+//        printMembers();
     }
 }

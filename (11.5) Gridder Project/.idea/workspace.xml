@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(12) Database Notes" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -49,13 +49,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603315301524</updated>
       <workItem from="1603922260040" duration="296000" />
+      <workItem from="1604002506879" duration="167000" />
     </task>
     <servers />
   </component>
@@ -99,26 +102,26 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1603916908649">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1604002513986">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1603916908649" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1603922556118">
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604002513986" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1604002673700">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1603922556118" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1603922556117">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1604002673700">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1603922556117" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1603922556117">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1604002673700">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1603922556117" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1603922556118">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1604002673700">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1603922556118" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1603836116837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
