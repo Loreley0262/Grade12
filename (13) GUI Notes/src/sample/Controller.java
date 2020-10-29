@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -9,7 +10,7 @@ import javafx.scene.control.TextField;
 public class Controller {
     public TextField txtNumber;
     public Label lblNumber;
-    public ListView listPersons;
+    public ListView<Person> listPersons;
     public Button btnAddPerson;
     public TextField txtName;
 
@@ -20,6 +21,6 @@ public class Controller {
 
     public void btnAddPpl(ActionEvent actionEvent) {
         Person joe = new Person(Integer.parseInt(txtNumber.getText()), txtName.getText());
-        
+        listPersons.setItems((ObservableList<Person>) joe);
     }
 }
