@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Thu Oct 29 17:58:24 PDT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-7703-43e7-000006c6fe08 
-on database directory C:\! Lyra School\Grade 11\Programming 12\Github\Lyra-C.-Programming-12\(12) Database Notes\database\forum with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
-Loaded from file:/C:/!%20Lyra%20School/Grade%2011/Programming%2012/Github/Lyra-C.-Programming-12/derby.jar
+Fri Oct 30 13:18:07 PDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-7b29-0466-000006c98798 
+on database directory C:\Users\777785\!!Programming 12\Github\Lyra-C.-Programming-12\(12) Database Notes\database\forum with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/777785/!!Programming%2012/Github/Lyra-C.-Programming-12/derby.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_221-b11
-user.dir=C:\! Lyra School\Grade 11\Programming 12\Github\Lyra-C.-Programming-12\(12) Database Notes
+java.runtime.version=1.8.0_261-b12
+user.dir=C:\Users\777785\!!Programming 12\Github\Lyra-C.-Programming-12\(12) Database Notes
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0

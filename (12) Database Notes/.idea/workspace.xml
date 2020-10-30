@@ -49,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/forum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(13) GUI Notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,15 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +98,7 @@
       <workItem from="1604002518079" duration="2785000" />
       <workItem from="1604016972886" duration="1385000" />
       <workItem from="1604018417511" duration="1700000" />
+      <workItem from="1604089012612" duration="167000" />
     </task>
     <servers />
   </component>
@@ -139,30 +138,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="229" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1604017338302" />
-    <state x="473" y="171" key="FileChooserDialogImpl" timestamp="1604018921459">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="426" y="171" key="FileChooserDialogImpl" timestamp="1604089178524">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604006100448" />
+    <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604089178524" />
     <state x="473" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604018921459" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1604020394120">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1604089179715">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604007809780" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1604020394120">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1604089179715">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604007809780" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1604020394120">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1604089179715">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604007809780" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1604020394120">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1604089179715">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604007809780" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
     <state width="218" height="457" key="HiddenNamespacesPopup" timestamp="1604019046141">
       <screen x="0" y="0" width="1600" height="860" />

@@ -52,6 +52,7 @@ public class Main {
         }
     }
 
+
     public static void main(String[] args) throws SQLException {
         handler = new DatabaseHandler();
         Scanner scan = new Scanner(System.in);
