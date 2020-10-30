@@ -11,4 +11,8 @@ public class Member {
         this.nickname = nickname;
     }
 
+    @Override
+    public String toString() {
+        return "id: " + id + "\tname: " + name + "\tnickname: " + nickname + "\temail: " + email;
+    }
 }

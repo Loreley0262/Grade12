@@ -11,6 +11,7 @@ public class DatabaseHandler {
 
     public DatabaseHandler(){
         createConnection();
+        createMemberTable();
     }
 
     private void createConnection(){ //must use try catch statements
