@@ -66,8 +66,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554484674024" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(14.5) WindowsLesson Notes my copy" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -95,6 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -115,7 +132,7 @@
       <workItem from="1554307148319" duration="2570000" />
       <workItem from="1554479081154" duration="4015000" />
       <workItem from="1554483795793" duration="723000" />
-      <workItem from="1604090775723" duration="623000" />
+      <workItem from="1604090775723" duration="3821000" />
     </task>
     <servers />
   </component>
@@ -127,6 +144,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604091527415" />
+    <state width="1397" height="221" key="GridCell.Tab.0.bottom" timestamp="1604095367324">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604095367324" />
+    <state width="1397" height="221" key="GridCell.Tab.0.center" timestamp="1604095367324">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604095367324" />
+    <state width="1397" height="221" key="GridCell.Tab.0.left" timestamp="1604095367324">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604095367324" />
+    <state width="1397" height="221" key="GridCell.Tab.0.right" timestamp="1604095367324">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604095367324" />
     <state x="102" y="91" key="new project wizard" timestamp="1604090987066">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
