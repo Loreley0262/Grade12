@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c614368e-618e-4c2f-87ca-393bf1ce3275" name="Default Changelist" comment="" />
+    <list default="true" id="c614368e-618e-4c2f-87ca-393bf1ce3275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gridder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gridder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(12) Database Notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -49,15 +58,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +85,7 @@
       <updated>1603315301524</updated>
       <workItem from="1603922260040" duration="296000" />
       <workItem from="1604002506879" duration="167000" />
+      <workItem from="1604013168357" duration="3624000" />
     </task>
     <servers />
   </component>
@@ -106,22 +114,26 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604002513986" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1604002673700">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1604016499382">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1604002673700">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604016499382" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1604016499382">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1604002673700">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604016499382" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1604016499382">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1604002673700">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604016499382" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1604016499382">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604002673700" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604016499382" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1603836116837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
