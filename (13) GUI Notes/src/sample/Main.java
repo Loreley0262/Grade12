@@ -8,16 +8,17 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    static DatabaseHandler handler;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("GUI notes");
-        primaryStage.setScene(new Scene(root, 500, 400));
+        Parent root = FXMLLoader.load(getClass().getResource("../layouts/sample.fxml"));
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
-
     public static void main(String[] args) {
+        handler = new DatabaseHandler();
         launch(args);
     }
 }

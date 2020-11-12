@@ -1,198 +1,63 @@
 package sample;
 
-import javafx.beans.InvalidationListener;
-import javafx.collections.ListChangeListener;
-import javafx.collections.ObservableList;
+import com.sun.org.apache.xml.internal.security.Init;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
-import java.util.*;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-public class Controller {
+
+public class Controller implements Initializable {
     public TextField txtNumber;
     public Label lblNumber;
-    public ListView<Person> listPersons = new ListView<>();
-    public Button btnAddPerson;
     public TextField txtName;
+    public Button btnAddMember;
+    public Button btnAddBook;
+    public Button btnExit;
+    public Button display;
 
-    public void btnAddNums(ActionEvent actionEvent) {
-        int nom = Integer.parseInt(txtNumber.getText()) + Integer.parseInt(lblNumber.getText());
-        lblNumber.setText(Integer.toString(nom));
+    void loadWindow (String location, String title){
+        try{
+            Parent parent = FXMLLoader.load(getClass().getResource(location));
+            Stage stage = new Stage(StageStyle.DECORATED);
+            stage.setTitle(title);
+            stage.setScene(new Scene(parent));
+            stage.show();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
-    public void btnAddPpl(ActionEvent actionEvent) {
-        ObservableList<Person> people = new ObservableList<Person>() {
-            @Override
-            public void addListener(ListChangeListener<? super Person> listener) {
+    public void addMemberWindow(javafx.event.ActionEvent actionEvent) {
+        loadWindow("../layouts/addMember.fxml", "Add Member");
+    }
+    public void addBookWindow(javafx.event.ActionEvent actionEvent) {
+        loadWindow("../layouts/addBook.fxml", "Add Member");
+    }
+    public void displayWindow(javafx.event.ActionEvent actionEvent) {
 
-            }
+        loadWindow("../layouts/display.fxml", "List of Books");
+    }
 
-            @Override
-            public void removeListener(ListChangeListener<? super Person> listener) {
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        System.out.println("Runs when window is open");
+    }
 
-            }
-
-            @Override
-            public boolean addAll(Person... elements) {
-                return false;
-            }
-
-            @Override
-            public boolean setAll(Person... elements) {
-                return false;
-            }
-
-            @Override
-            public boolean setAll(Collection<? extends Person> col) {
-                return false;
-            }
-
-            @Override
-            public boolean removeAll(Person... elements) {
-                return false;
-            }
-
-            @Override
-            public boolean retainAll(Person... elements) {
-                return false;
-            }
-
-            @Override
-            public void remove(int from, int to) {
-
-            }
-
-            @Override
-            public int size() {
-                return 0;
-            }
-
-            @Override
-            public boolean isEmpty() {
-                return false;
-            }
-
-            @Override
-            public boolean contains(Object o) {
-                return false;
-            }
-
-            @Override
-            public Iterator<Person> iterator() {
-                return null;
-            }
-
-            @Override
-            public Object[] toArray() {
-                return new Object[0];
-            }
-
-            @Override
-            public <T> T[] toArray(T[] a) {
-                return null;
-            }
-
-            @Override
-            public boolean add(Person person) {
-                return false;
-            }
-
-            @Override
-            public boolean remove(Object o) {
-                return false;
-            }
-
-            @Override
-            public boolean containsAll(Collection<?> c) {
-                return false;
-            }
-
-            @Override
-            public boolean addAll(Collection<? extends Person> c) {
-                return false;
-            }
-
-            @Override
-            public boolean addAll(int index, Collection<? extends Person> c) {
-                return false;
-            }
-
-            @Override
-            public boolean removeAll(Collection<?> c) {
-                return false;
-            }
-
-            @Override
-            public boolean retainAll(Collection<?> c) {
-                return false;
-            }
-
-            @Override
-            public void clear() {
-
-            }
-
-            @Override
-            public Person get(int index) {
-                return null;
-            }
-
-            @Override
-            public Person set(int index, Person element) {
-                return null;
-            }
-
-            @Override
-            public void add(int index, Person element) {
-
-            }
-
-            @Override
-            public Person remove(int index) {
-                return null;
-            }
-
-            @Override
-            public int indexOf(Object o) {
-                return 0;
-            }
-
-            @Override
-            public int lastIndexOf(Object o) {
-                return 0;
-            }
-
-            @Override
-            public ListIterator<Person> listIterator() {
-                return null;
-            }
-
-            @Override
-            public ListIterator<Person> listIterator(int index) {
-                return null;
-            }
-
-            @Override
-            public List<Person> subList(int fromIndex, int toIndex) {
-                return null;
-            }
-
-            @Override
-            public void addListener(InvalidationListener listener) {
-
-            }
-
-            @Override
-            public void removeListener(InvalidationListener listener) {
-
-            }
-        };
-        people.add(new Person(Integer.parseInt(txtNumber.getText()), txtName.getText()));
-        listPersons.setItems(people);
-        txtName.setText(null);
-        txtNumber.setText(null);
+    public void exitWindow(ActionEvent actionEvent) {
+        Stage stage = (Stage) btnExit.getScene().getWindow();
+        stage.close();
     }
 }

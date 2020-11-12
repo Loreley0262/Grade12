@@ -83,12 +83,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
-  </component>
   <component name="ProjectId" id="1jc6MttXETMdajnZudZ9nW3tVWG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -109,7 +103,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../(12) Database Notes/database/forum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -177,15 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,6 +225,8 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1604090990996" duration="424000" />
       <workItem from="1604091529940" duration="3829000" />
+      <workItem from="1605217781650" duration="4000" />
+      <workItem from="1605217829664" duration="2271000" />
     </task>
     <servers />
   </component>
@@ -272,22 +266,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604094375028" />
-    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1604095363749">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1605221978181">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604095363749" />
-    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1604095363749">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605221978181" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1605221978181">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604095363749" />
-    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1604095363749">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605221978181" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1605221978181">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604095363749" />
-    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1604095363749">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605221978181" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1605221978181">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604095363749" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605221978181" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1604095363749">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

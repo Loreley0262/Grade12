@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -12,7 +13,10 @@ import java.io.IOException;
 public class Controller {
 
 
-     void loadWindow (String location, String title){
+    public Button btnAddMember;
+    public Button btnDelMember;
+
+    void loadWindow (String location, String title){
          try{
              Parent parent = FXMLLoader.load(getClass().getResource(location));
              Stage stage = new Stage(StageStyle.DECORATED);
