@@ -21,15 +21,24 @@
   <component name="ChangeListManager">
     <list default="true" id="d77884a3-84e8-40e5-814a-5c526a400215" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/database/forum/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/database/forum/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/out/production/(13) GUI Notes/layouts/AddMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/out/production/(13) GUI Notes/layouts/AddMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/out/production/(13) GUI Notes/layouts/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/out/production/(13) GUI Notes/layouts/Display.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/out/production/(13) GUI Notes/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/out/production/(13) GUI Notes/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/src/layouts/AddMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/src/layouts/AddMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/src/layouts/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/src/layouts/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../(13) GUI Notes/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../(13) GUI Notes/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c10.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c241.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c251.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c251.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c4a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(12) Database Notes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(12) Database Notes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +111,8 @@
       <workItem from="1604091066198" duration="358000" />
       <workItem from="1604094207479" duration="60000" />
       <workItem from="1605216348199" duration="443000" />
-      <workItem from="1605234508200" duration="1852000" />
+      <workItem from="1605234508200" duration="1872000" />
+      <workItem from="1605289916060" duration="23000" />
     </task>
     <servers />
   </component>
@@ -147,26 +157,26 @@
     </state>
     <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604089178524" />
     <state x="473" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604018921459" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1604089179715">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1605289813868">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1604089179715">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605289813868" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1605289813868">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1604089179715">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605289813868" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1605289813868">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1604089179715">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605289813868" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1605289813868">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604089179715" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604020394120" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605289813868" />
     <state width="218" height="457" key="HiddenNamespacesPopup" timestamp="1604019046141">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -39,7 +39,7 @@ public class Controller implements Initializable {
         loadWindow("../layouts/addmember.fxml", "Add Member");
     }
     public void addBookWindow(javafx.event.ActionEvent actionEvent) {
-        loadWindow("../layouts/addbook.fxml", "Add Member");
+        loadWindow("../layouts/display.fxml", "Add Member");
     }
     public void displayWindow(javafx.event.ActionEvent actionEvent) {
 
