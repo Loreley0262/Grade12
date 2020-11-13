@@ -34,6 +34,11 @@ public class AddMember implements Initializable {
         handler = DatabaseHandler.getHandler();
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
     public void addMember(ActionEvent actionEvent) {
         String name = getName.getText();
         String id = getId.getText();

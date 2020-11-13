@@ -21,24 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../(12) Database Notes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../(12) Database Notes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/04b321d1-6135-4d16-9d66-ff64c5f09d20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/04b321d1-6135-4d16-9d66-ff64c5f09d20/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/04b321d1-6135-4d16-9d66-ff64c5f09d20/storage_v2/_src_/schema/SYSCS_UTIL.JC_i2A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/04b321d1-6135-4d16-9d66-ff64c5f09d20/storage_v2/_src_/schema/SYSIBM.hzyvkg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/forum/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c490.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c4b0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c4c1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/(13) GUI Notes/layouts/AddMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13) GUI Notes/layouts/AddMember.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/(13) GUI Notes/layouts/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13) GUI Notes/layouts/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13) GUI Notes/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13) GUI Notes/sample/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/AddMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/AddMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/addmember.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/addmember.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +240,7 @@
       <workItem from="1604016924030" duration="48000" />
       <workItem from="1604089182905" duration="1646000" />
       <workItem from="1605215854555" duration="6113000" />
-      <workItem from="1605225431129" duration="13324000" />
+      <workItem from="1605225431129" duration="14392000" />
     </task>
     <servers />
   </component>
@@ -278,11 +268,11 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1605221133616" />
-    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1605242344500">
+    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1605289348452">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1605220645300" />
-    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605242344500" />
+    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605289348452" />
     <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605219390176">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -292,26 +282,26 @@
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605221128258" />
     <state x="556" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604016970819" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1605245103701">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1605289706542">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605245103701" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1605245103701">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605289706542" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1605289706542">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605245103701" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1605245103701">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605289706542" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1605289706541">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605245103701" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1605245103701">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605289706541" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1605289706542">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605245103701" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605289706542" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1605236576447">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

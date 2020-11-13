@@ -31,7 +31,7 @@ public class Display implements Initializable {
 
             Iterator<AddMember> iterator = members.iterator();
             while(iterator.hasNext()){
-                listMembers.getItems().add(iterator.next());
+                listMembers.getItems().add(iterator.next().toString());
             }
         }
         catch(Exception e){
