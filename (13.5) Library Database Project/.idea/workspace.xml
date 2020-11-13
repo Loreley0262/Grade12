@@ -75,12 +75,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
-  </component>
   <component name="ProjectId" id="1kFqflJGlLvTmeBODMnYI6NKq17" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -216,7 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1605306795701" duration="975000" />
+      <workItem from="1605306795701" duration="1300000" />
     </task>
     <servers />
   </component>
@@ -247,22 +241,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605307384132" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1605307765913">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1605308065251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605307765913" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1605307765913">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605308065251" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1605308065251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605307765913" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1605307765913">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605308065251" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1605308065251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605307765913" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1605307765913">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605308065251" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1605308065251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605307765913" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605308065251" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605307317260">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

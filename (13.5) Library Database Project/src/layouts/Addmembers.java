@@ -46,18 +46,18 @@ public class Addmembers implements Initializable{
                 "'" + email + "'," +
                 "'" + nick + "'" + ")";
         System.out.println(st);
-//        if(handler.execAction(st)){
-//            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//            alert.setContentText("Saved");
-//            alert.setHeaderText(null);
-//            alert.showAndWait();
-//        }
-//        else{
-//            Alert alert = new Alert(Alert.AlertType.ERROR);
-//            alert.setContentText("Error with imputing data");
-//            alert.setHeaderText(null);
-//            alert.showAndWait();
-//        }
+        if(handler.execAction(st)){
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setContentText("Saved");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Error with imputing data");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
         Stage stage = (Stage) btnSubmit.getScene().getWindow();
         stage.close();
     }
