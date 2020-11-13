@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 public class Addmembers implements Initializable{
 
-    public DatabaseHandler handler;
+    static DatabaseHandler handler;
     public TextField getNick;
     public TextField getEmail;
     public TextField getId;
@@ -48,18 +48,18 @@ public class Addmembers implements Initializable{
                 "'" + email + "'," +
                 "'" + nick + "'" + ")";
         System.out.println(st);
-        if(handler.execAction(st)){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText("Saved");
-            alert.setHeaderText(null);
-            alert.showAndWait();
-        }
-        else{
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText("Error with imputing data");
-            alert.setHeaderText(null);
-            alert.showAndWait();
-        }
+//        if(handler.execAction(st)){
+//            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+//            alert.setContentText("Saved");
+//            alert.setHeaderText(null);
+//            alert.showAndWait();
+//        }
+//        else{
+//            Alert alert = new Alert(Alert.AlertType.ERROR);
+//            alert.setContentText("Error with imputing data");
+//            alert.setHeaderText(null);
+//            alert.showAndWait();
+//        }
         Stage stage = (Stage) btnSubmit.getScene().getWindow();
         stage.close();
     }
