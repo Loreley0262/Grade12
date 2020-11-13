@@ -1,6 +1,5 @@
 package sample;
 
-import com.sun.org.apache.xml.internal.security.Init;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -8,7 +7,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -19,9 +17,6 @@ import java.util.ResourceBundle;
 
 
 public class Controller implements Initializable {
-    public TextField txtNumber;
-    public Label lblNumber;
-    public TextField txtName;
     public Button btnAddMember;
     public Button btnAddBook;
     public Button btnExit;
