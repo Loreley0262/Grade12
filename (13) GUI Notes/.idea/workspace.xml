@@ -94,8 +94,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -198,15 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,6 +256,7 @@
       <workItem from="1605215854555" duration="6113000" />
       <workItem from="1605225431129" duration="14392000" />
       <workItem from="1605289948316" duration="971000" />
+      <workItem from="1605302336978" duration="2388000" />
     </task>
     <servers />
   </component>
@@ -290,54 +289,54 @@
     </state>
     <state x="525" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1605220645300" />
     <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605289348452" />
-    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605219390176">
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605304331094">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1605219390176" />
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1605304331094" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1605221128258">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605221128258" />
     <state x="556" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604016970819" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1605290924325">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1605304533749">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1605290924325">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1605304533749">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1605290924325">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1605304533749">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1605290924325">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1605304533749">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1605236576447">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1605303803195">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605303803195" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605236576447" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1605236576447">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1605303803194">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1605303803194" />
     <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1605236576447" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1605236576446">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1605303803194">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1605303803194" />
     <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1605236576446" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1605236576447">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1605303803194">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1605221975911" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1605303803194" />
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605236576447" />
     <state x="200" y="4" key="SettingsEditor" timestamp="1605216604823">
       <screen x="0" y="0" width="1440" height="860" />
@@ -351,5 +350,13 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="424" y="321" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.860@0.0.1440.860" timestamp="1605216567986" />
+    <state x="253" y="166" width="933" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605302625941">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="253" y="166" width="933" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.860@0.0.1440.860" timestamp="1605302625941" />
+    <state x="450" y="185" key="extract.method.dialog" timestamp="1605303969981">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="185" key="extract.method.dialog/0.0.1440.860@0.0.1440.860" timestamp="1605303969981" />
   </component>
 </project>

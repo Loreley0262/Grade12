@@ -13,25 +13,22 @@ import java.util.Iterator;
 import java.util.ResourceBundle;
 
 public class Display implements Initializable {
-    static DatabaseHandler handler;
+    public DatabaseHandler handler;
     public ListView listMembers = new ListView();
     public ListView listBooks;
+
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        ArrayList<AddMember> members = new ArrayList<>();
+        ArrayList<Member> members = new ArrayList<>();
         String qu = "SELECT * FROM MEMBER";
-        listMembers.getItems().add("a");
+        listMembers.getItems().add(qu);
         try{
             ResultSet rs = handler.execQuery(qu);
             while (rs.next()){
                 String name = rs.getString("name");
                 String id = rs.getString("id"); //single quotes for sql? idk what that means
-                members.add(new AddMember(id, name));
-            }
-
-            Iterator<AddMember> iterator = members.iterator();
-            while(iterator.hasNext()){
-                listMembers.getItems().add(iterator.next().toString());
+                listMembers.getItems().add(name);
             }
         }
         catch(Exception e){
@@ -40,7 +37,6 @@ public class Display implements Initializable {
 
     }
 
-    //27
 //    public static void printMembers() throws SQLException {
 //        ArrayList<Member> members = new ArrayList<>();
 //        String qu = "SELECT * FROM MEMBER"; //change select to delete to delete member

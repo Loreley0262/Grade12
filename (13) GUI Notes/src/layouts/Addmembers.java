@@ -13,7 +13,7 @@ import java.awt.*;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class AddMember implements Initializable {
+public class Addmembers implements Initializable{
 
     public DatabaseHandler handler;
     public TextField getNick;
@@ -21,23 +21,12 @@ public class AddMember implements Initializable {
     public TextField getId;
     public TextField getName;
     public Button btnSubmit;
-    String id;
-    String name;
-
-    AddMember(String id, String name){
-        this.id = id;
-        this.name = name;
-    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         handler = DatabaseHandler.getHandler();
     }
 
-    @Override
-    public String toString() {
-        return name;
-    }
 
     public void addMember(ActionEvent actionEvent) {
         String name = getName.getText();
