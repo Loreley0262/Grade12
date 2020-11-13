@@ -146,6 +146,9 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="layouts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\777785\!!Programming 12\Github\Lyra-C.-Programming-12\(13) GUI Notes\src\layouts" />
     </key>
@@ -256,7 +259,7 @@
       <workItem from="1605215854555" duration="6113000" />
       <workItem from="1605225431129" duration="14392000" />
       <workItem from="1605289948316" duration="971000" />
-      <workItem from="1605302336978" duration="2388000" />
+      <workItem from="1605302336978" duration="3730000" />
     </task>
     <servers />
   </component>
@@ -280,10 +283,10 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605221133616">
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605305732799">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1605221133616" />
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1605305732799" />
     <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1605289348452">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -293,30 +296,37 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1605304331094" />
+<<<<<<< Updated upstream
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1605306433228">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605306433228" />
+=======
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1605305729257">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605305729257" />
+>>>>>>> Stashed changes
     <state x="556" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604016970819" />
-    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1605304533749">
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1605306012298">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605306012298" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1605304533749">
+    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1605306012298">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
+    <state width="1397" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605306012298" />
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1605304533749">
+    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1605306012297">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605306012297" />
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
-    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1605304533749">
+    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1605306012298">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605304533749" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605306012298" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605290924325" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1605303803195">
       <screen x="0" y="0" width="1440" height="860" />
@@ -338,10 +348,17 @@
     </state>
     <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1605303803194" />
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605236576447" />
+<<<<<<< Updated upstream
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605306354713">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1440.860@0.0.1440.860" timestamp="1605306354713" />
+=======
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605305677491">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1440.860@0.0.1440.860" timestamp="1605305677491" />
+>>>>>>> Stashed changes
     <state x="200" y="4" key="SettingsEditor" timestamp="1605216604823">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -362,5 +379,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="185" key="extract.method.dialog/0.0.1440.860@0.0.1440.860" timestamp="1605303969981" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1605305318332">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1605305318332" />
   </component>
 </project>
