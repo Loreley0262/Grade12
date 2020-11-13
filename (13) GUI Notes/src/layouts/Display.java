@@ -24,25 +24,25 @@ public class Display implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-//        String qu = "SELECT * FROM MEMBER";
-//        ResultSet rs = handler.execQuery(qu);
-//
-//        while (true) {
-//            try {
-//                if (!rs.next()) break;
-//            } catch (SQLException throwables) {
-//                throwables.printStackTrace();
-//            }
-//            String name = null;
-//            try {
-//                name = rs.getString("name");
-//            } catch (SQLException throwables) {
-//                throwables.printStackTrace();
-//            }
-////            String id = rs.getString("id");
-////            String nickname = rs.getString("nickname");
-////            String email = rs.getString("email");
-//            listMembers.getItems().add(name);
+        String qu = "SELECT * FROM MEMBER";
+        ResultSet rs = handler.execQuery(qu);
+
+        while (true) {
+            try {
+                if (!rs.next()) break;
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+            String name = null;
+            try {
+                name = rs.getString("name");
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+//            String id = rs.getString("id");
+//            String nickname = rs.getString("nickname");
+//            String email = rs.getString("email");
+            listMembers.getItems().add(name);
         System.out.println("run");
         }
 
@@ -65,8 +65,8 @@ public class Display implements Initializable {
 //                System.out.println(iterator.next());
 //            }
 //        }
-    //}
-
+//    }
+//
 //    //public void printMembers(ActionEvent actionEvent) throws SQLException {
 //        ArrayList<Member> members = new ArrayList<>();
 //            String qu = "SELECT * FROM MEMBER"; //change select to delete to delete member
@@ -84,6 +84,10 @@ public class Display implements Initializable {
 //            while (iterator.hasNext()) {
 //                System.out.println(iterator.next());
 //            }
-//        }
+        }
+
+    public void printMembers(ActionEvent actionEvent) {
+        System.out.println("hi");
     }
+}
 

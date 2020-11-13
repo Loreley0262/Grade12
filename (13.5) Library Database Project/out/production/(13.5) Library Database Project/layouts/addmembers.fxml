@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.Addmembers">
+   <children>
+      <Button fx:id="btnSubmit" layoutX="268.0" layoutY="342.0" mnemonicParsing="false" onAction="#addMember" text="submit" />
+      <TextField fx:id="getId" layoutX="220.0" layoutY="151.0" promptText="id" />
+      <TextField fx:id="getName" layoutX="220.0" layoutY="188.0" promptText="name" />
+      <TextField fx:id="getNick" layoutX="220.0" layoutY="228.0" promptText="nick" />
+      <TextField fx:id="getEmail" layoutX="220.0" layoutY="265.0" promptText="email" />
+   </children>
+</AnchorPane>
