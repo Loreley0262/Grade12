@@ -9,4 +9,8 @@ public class Member {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "ID: " + id + "\tName: " + name;
+    }
 }

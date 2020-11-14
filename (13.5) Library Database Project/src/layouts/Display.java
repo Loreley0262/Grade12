@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ResourceBundle;
 
-public class Display {
+public class Display implements Initializable {
     public DatabaseHandler handler;
     public ListView listMembers = new ListView();
     public ListView listBooks;
@@ -71,7 +71,9 @@ public class Display {
                 String id = rs.getString("id"); //single quotes for sql? idk what that means
                 String nickname = rs.getString("nickname");
                 String email = rs.getString("email");
-                members.add(new Member(id, name));
+                Member bob = new Member(id, name);
+                members.add(bob);
+                listMembers.getItems().add(bob.toString());
             }
 
             Iterator<Member> iterator = members.iterator();
@@ -79,6 +81,10 @@ public class Display {
                 System.out.println(iterator.next());
             }
         }
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        handler = DatabaseHandler.getHandler();
     }
+}
 
 
