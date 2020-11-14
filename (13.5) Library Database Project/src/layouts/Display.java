@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.ResourceBundle;
 
 public class Display {
-    static DatabaseHandler handler;
+    public DatabaseHandler handler;
     public ListView listMembers = new ListView();
     public ListView listBooks;
     public Button btnShow;
