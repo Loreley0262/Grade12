@@ -9,15 +9,15 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <right>
       <VBox prefHeight="400.0" prefWidth="129.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="btnAddMember" contentDisplay="TOP" mnemonicParsing="false" onAction="#addMemberWindow" prefHeight="99.0" prefWidth="129.0" text="Add Member" textAlignment="CENTER">
+            <Button fx:id="btnAddMember" contentDisplay="TOP" mnemonicParsing="false" onAction="#addMemberWindow" prefHeight="78.0" prefWidth="129.0" text="Add Member" textAlignment="CENTER">
                <graphic>
                   <ImageView fitHeight="62.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../icons/addUser.png" />
+                        <Image url="@icons/addUser.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -26,7 +26,7 @@
                <graphic>
                   <ImageView fitHeight="62.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../icons/addBook.png" />
+                        <Image url="@icons/addBook.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -35,7 +35,7 @@
                <graphic>
                   <ImageView fitHeight="62.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../icons/emailIcon.png" />
+                        <Image url="@icons/emailIcon.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -44,11 +44,12 @@
                <graphic>
                   <ImageView fitHeight="48.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../icons/settingsIcon.png" />
+                        <Image url="@icons/settingsIcon.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
+            <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="129.0" styleClass="jfx-button" stylesheets="@style.css" text="Send" />
          </children>
       </VBox>
    </right>
