@@ -1,4 +1,4 @@
-package layouts;
+package model;
 
 public class Book {
     String title;
