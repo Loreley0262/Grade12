@@ -16,7 +16,10 @@ public class DatabaseHandler {
         createConnection();
         createMemberTable();
         createBookTable();
+        createWithdrawTable();
     }
+
+
 
     private void createConnection(){ //must use try catch statements
         try{
@@ -70,6 +73,29 @@ public class DatabaseHandler {
             }
         }
         catch (SQLException e){
+            System.out.println(e.getMessage() + "setting up database");
+        }
+    }
+
+    private void createWithdrawTable() {
+        String TABLE_NAME = "WITHDRAWAL";
+        try{
+            stmt = conn.createStatement();
+            DatabaseMetaData dmn = conn.getMetaData();
+            ResultSet tables = dmn.getTables(null, null, TABLE_NAME, null);
+            if (tables.next()){
+                System.out.println("Table " + TABLE_NAME + " already exists.");
+            }
+            else{
+                String statement = "CREATE TABLE " + TABLE_NAME +"(" +
+                        "name varchar (200) primary key, \n" +
+                        "title varchar (200))";
+                System.out.println(statement);
+                stmt.execute(statement);
+            }
+        }
+        catch (SQLException e){
+            System.out.println("aaaaa");
             System.out.println(e.getMessage() + "setting up database");
         }
     }

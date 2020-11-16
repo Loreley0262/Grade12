@@ -19,7 +19,7 @@
     <schema id="12" parent="1" name="SYSSTAT"/>
     <table id="13" parent="2" name="BOOK"/>
     <table id="14" parent="2" name="MEMBER"/>
-    <table id="15" parent="2" name="MESSAGES"/>
+    <table id="15" parent="2" name="WITHDRAWAL"/>
     <column id="16" parent="13" name="ID">
       <Position>1</Position>
       <DataType>VARCHAR(200)|12s</DataType>
@@ -66,29 +66,23 @@
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="26" parent="15" name="MESSAGE_ID">
+    <column id="26" parent="15" name="NAME">
       <Position>1</Position>
-      <DataType>INTEGER|4s</DataType>
+      <DataType>VARCHAR(200)|12s</DataType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>null</SequenceIdentity>
-      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="27" parent="15" name="MESSAGE">
+    <column id="27" parent="15" name="TITLE">
       <Position>2</Position>
-      <DataType>VARCHAR(300)|12s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>VARCHAR(200)|12s</DataType>
     </column>
-    <column id="28" parent="15" name="DATE">
-      <Position>3</Position>
-      <DataType>DATE|91s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <index id="29" parent="15" name="SQL0000000000-addac06e-0175-c3c6-d89c-0000074b7cb8">
-      <ColNames>MESSAGE_ID</ColNames>
+    <index id="28" parent="15" name="SQL201116144428860">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="30" parent="15" name="SQL0000000000-addac06e-0175-c3c6-d89c-0000074b7cb8">
-      <ColNames>MESSAGE_ID</ColNames>
+    <key id="29" parent="15" name="SQL201116144428860">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>
