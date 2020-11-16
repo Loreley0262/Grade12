@@ -9,6 +9,7 @@ import javafx.scene.control.TextField;
 import sample.DatabaseHandler;
 
 import java.net.URL;
+import java.sql.ResultSet;
 import java.util.ResourceBundle;
 
 public class Withdrawal implements Initializable {
@@ -22,37 +23,49 @@ public class Withdrawal implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         handler = DatabaseHandler.getHandler();
+        String qu = "SELECT * FROM MEMBER";
+        ResultSet rs = handler.execQuery(qu);
+//        while (rs.next()){
+//            String name = rs.getString("name");
+//            String id = rs.getString("id");
+//            String email = rs.getString("email");
+//            String nick = rs.getString("nickName");
+//            members.add(new Showmembers.Member(name, id, email, nick));
+//        }
+//        memberTable.getItems().setAll(members);
+//        System.out.println("load");
     }
 
-//    public void withdrawBook(ActionEvent actionEvent) {
-//        String name = getMemberName.getText();
-//        String title = getBookTitle.getText();
-//
-//        boolean flag = name.isEmpty() || title.isEmpty();
-//        if (flag){
-//            Alert alert = new Alert(Alert.AlertType.ERROR);
-//            alert.setContentText("Please enter all fields");
-//            alert.setHeaderText(null);
-//            alert.showAndWait();
-//            return;
-//        }
-//        String st = "INSERT INTO WITHDRAWAL VALUES (" +
-//                "'" + id + "'," +
-//                "'" + name + "'," +
-//                "'" + email + "'," +
-//                "'" + nick + "'" + ")";
-//        System.out.println(st);
-//        if(handler.execAction(st)){
-//            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//            alert.setContentText("Saved");
-//            alert.setHeaderText(null);
-//            alert.showAndWait();
-//        }
-//        else{
-//            Alert alert = new Alert(Alert.AlertType.ERROR);
-//            alert.setContentText("Error with imputing data");
-//            alert.setHeaderText(null);
-//            alert.showAndWait();
-//        }
-//    }
+    public void withdrawBook(ActionEvent actionEvent) {
+        String name = getMemberName.getText();
+        String title = getBookTitle.getText();
+
+        boolean flag = name.isEmpty() || title.isEmpty();
+        if (flag){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Please enter all fields");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+            return;
+        }
+
+
+
+        String st = "INSERT INTO WITHDRAWAL VALUES (" +
+                "'" + name + "'," +
+                "'" + title + "'" + ")";
+        System.out.println(st);
+        if(handler.execAction(st)){
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setContentText("Saved");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Error with imputing data");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
+    }
 }
