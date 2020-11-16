@@ -42,6 +42,9 @@ public class Controller implements Initializable {
     public void displayWindow(ActionEvent actionEvent) {
         loadWindow("../layouts/display.fxml", "List of Books");
     }
+    public void showMembers(ActionEvent actionEvent) {
+        loadWindow("../layouts/showMembers.fxml", "showmember");
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -52,4 +55,5 @@ public class Controller implements Initializable {
         Stage stage = (Stage) btnExit.getScene().getWindow();
         stage.close();
     }
+
 }

@@ -21,7 +21,7 @@ public class Display implements Initializable {
 
 
     public void printMembers(ActionEvent actionEvent) throws SQLException {
-        ArrayList<Member> members = new ArrayList<>();
+        ArrayList<model.Member> members = new ArrayList<>();
         String qu = "SELECT * FROM MEMBER"; //change select to delete to delete member
         ResultSet rs = handler.execQuery(qu);
 
@@ -30,13 +30,13 @@ public class Display implements Initializable {
             String id = rs.getString("id"); //single quotes for sql? idk what that means
             String nickname = rs.getString("nickname");
             String email = rs.getString("email");
-            Member bob = new Member(id, name);
+            model.Member bob = new model.Member(id, name, nickname, email);
             members.add(bob);
 
             listMembers.getItems().add(bob.toString());
         }
 
-        Iterator<Member> iterator = members.iterator();
+        Iterator<model.Member> iterator = members.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
