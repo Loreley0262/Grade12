@@ -39,11 +39,11 @@ public class Controller implements Initializable {
     public void addBookWindow(ActionEvent actionEvent) {
         loadWindow("../layouts/addbook.fxml", "Add Book");
     }
-    public void displayWindow(ActionEvent actionEvent) {
-        loadWindow("../layouts/display.fxml", "List of Books");
+    public void showMembersWindow(ActionEvent actionEvent) {
+        loadWindow("../layouts/showmembers.fxml", "title");
     }
-    public void showMembers(ActionEvent actionEvent) {
-        loadWindow("../layouts/showMembers.fxml", "showmember");
+    public void showWithdrawlWindow(ActionEvent actionEvent) {
+        loadWindow("../layouts/showmembers.fxml", "title");
     }
 
     @Override
@@ -55,5 +55,6 @@ public class Controller implements Initializable {
         Stage stage = (Stage) btnExit.getScene().getWindow();
         stage.close();
     }
+
 
 }

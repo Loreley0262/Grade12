@@ -4,14 +4,14 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.ShowMembers">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.Showmembers">
    <children>
-      <TableView fx:id="memberTable" layoutX="-1.0" prefHeight="400.0" prefWidth="600.0">
+      <TableView fx:id="memberTable" prefHeight="400.0" prefWidth="600.0">
         <columns>
-          <TableColumn fx:id="colName" minWidth="150.0" prefWidth="75.0" text="Name" />
-          <TableColumn fx:id="colId" minWidth="150.0" prefWidth="75.0" text="ID" />
-            <TableColumn fx:id="colEmail" minWidth="150.0" prefWidth="75.0" text="Email" />
-            <TableColumn fx:id="colNick" minWidth="150.0" prefWidth="75.0" text="Nickname" />
+            <TableColumn fx:id="colName" minWidth="150.0" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="colId" minWidth="150.0" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colEmail" minWidth="150.0" prefWidth="75.0" text="Email" />
+          <TableColumn fx:id="colNick" minWidth="150.0" prefWidth="75.0" text="Nickname" />
         </columns>
       </TableView>
    </children>

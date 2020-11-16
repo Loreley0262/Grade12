@@ -40,7 +40,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="display" contentDisplay="TOP" layoutX="10.0" layoutY="208.0" mnemonicParsing="false" onAction="#displayWindow" prefHeight="87.0" prefWidth="129.0" text="Display" textAlignment="CENTER">
+            <Button fx:id="display" contentDisplay="TOP" layoutX="10.0" layoutY="208.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="129.0" text="Display" textAlignment="CENTER">
                <graphic>
                   <ImageView fitHeight="48.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -49,7 +49,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="129.0" styleClass="jfx-button" stylesheets="@style.css" text="Send" />
+            <Button mnemonicParsing="false" onAction="#showMembersWindow" prefHeight="49.0" prefWidth="129.0" styleClass="jfx-button" stylesheets="@style.css" text="Send" />
          </children>
       </VBox>
    </right>
@@ -71,11 +71,7 @@
               <MenuItem mnemonicParsing="false" text="About" />
             </items>
           </Menu>
-            <Menu mnemonicParsing="false" text="Show Member">
-              <items>
-                <MenuItem mnemonicParsing="false" onAction="#showMembers" text="Show Members" />
-              </items>
-            </Menu>
+            <Menu mnemonicParsing="false" text="Show Member" />
         </menus>
       </MenuBar>
    </top>
