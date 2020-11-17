@@ -1,11 +1,13 @@
 package layouts;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import model.Borrowing;
 import sample.DatabaseHandler;
 
 import java.net.URL;
@@ -15,25 +17,69 @@ import java.util.ResourceBundle;
 
 public class Withdrawal implements Initializable {
     static DatabaseHandler handler;
-    public ListView listBooks;
     public Button btnSubmit;
-    public ListView listMembers;
-    public TextField getMemberName;
+    public TextField getMemberId;
     public TextField getBookTitle;
-    public Button btnShow;
+    public ObservableList<Borrowing> borrowings = FXCollections.observableArrayList();
+    public TableView bookTable;
+    public TableView memberTable;
+    public ObservableList<Withdrawal.Member> members = FXCollections.observableArrayList();
+    public ObservableList<Withdrawal.Book> books = FXCollections.observableArrayList();
+    public TableColumn colBookId;
+    public TableColumn colBookTitle;
+    public TableColumn colMemberId;
+    public TableColumn colMemberName;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        handler = DatabaseHandler.getHandler();
+        initCol();
+        try{
+            loadData();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
 
+    private void initCol() {
+        colBookId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colBookTitle.setCellValueFactory(new PropertyValueFactory<>("book"));
+        colMemberId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colMemberName.setCellValueFactory(new PropertyValueFactory<>("name"));
+    }
+    private void loadData() throws SQLException {
+        handler = DatabaseHandler.getHandler();
+        String qu = "SELECT * FROM MEMBER";
+        String qq = "SELECT * FROM BOOK";
+        ResultSet rs = handler.execQuery(qu);
+        ResultSet res = handler.execQuery(qq);
+        while (rs.next()){
+            String id = rs.getString("id");
+            String name = rs.getString("name");
+            if (rs.getString("hasbook").equals("false")){
+                members.add(new Withdrawal.Member(id, name));
+            }
+
+        }
+        while (res.next()){
+            String id = res.getString("id");
+            String book = res.getString("book");
+            if (res.getString("borrowing").equals("false")){
+                books.add(new Withdrawal.Book(id, book));
+            }
+
+        }
+        memberTable.getItems().setAll(members);
+        bookTable.getItems().setAll(books);
     }
 
 
-    public void withdrawBook(ActionEvent actionEvent) {
-        String name = getMemberName.getText();
+    public void withdrawBook(ActionEvent actionEvent) throws SQLException {
+        String id = getMemberId.getText();
         String title = getBookTitle.getText();
-
-        boolean flag = name.isEmpty() || title.isEmpty();
+        System.out.println(id);
+        System.out.println(title);
+        boolean flag = id.isEmpty() || title.isEmpty();
         if (flag){
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setContentText("Please enter all fields");
@@ -42,12 +88,13 @@ public class Withdrawal implements Initializable {
             return;
         }
 
-
-
-        String st = "INSERT INTO WITHDRAWAL VALUES (" +
-                "'" + name + "'," +
-                "'" + title + "'" + ")";
+        String st = "UPDATE MEMBER \n" +
+                "SET hasbook = 'true'\n" +
+                "WHERE ID = '" + id + "'";
+//UPDATE MEMBER SET hasbook = 'true' WHERE ID = 'a'
+        
         System.out.println(st);
+
         if(handler.execAction(st)){
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setContentText("Saved");
@@ -61,20 +108,63 @@ public class Withdrawal implements Initializable {
             alert.showAndWait();
         }
     }
+    public static class Member{
+        private final SimpleStringProperty id;
+        private final SimpleStringProperty name;
 
-    public void show(ActionEvent actionEvent) throws SQLException {
-        String qu = "SELECT * FROM MEMBER";
-        String qq = "SELECT * FROM BOOK";
-        ResultSet rs = handler.execQuery(qu);
-        while (rs.next()){
-            String name = rs.getString("name");
-            String id = rs.getString("id");
-            String email = rs.getString("email");
-            String nick = rs.getString("nickName");
-            members.add(new Showmembers.Member(name, id, email, nick));
+
+        public String getName() {
+            return name.get();
         }
-        memberTable.getItems().setAll(members);
-        System.out.println("load");
-        btnShow.setVisible(false);
+        public SimpleStringProperty nameProperty() {
+            return name;
+        }
+        public void setName(String name) {
+            this.name.set(name);
+        }
+        public String getId() {
+            return id.get();
+        }
+        public SimpleStringProperty idProperty() {
+            return id;
+        }
+        public void setId(String id) {
+            this.id.set(id);
+        }
+
+        Member(String id, String name) {
+            this.id = new SimpleStringProperty(id);
+            this.name = new SimpleStringProperty(name);
+        }
+
+    }
+
+    public static class Book{
+        private final SimpleStringProperty id;
+        private final SimpleStringProperty book;
+
+        public String getBook() {
+            return book.get();
+        }
+        public SimpleStringProperty bookProperty() {
+            return book;
+        }
+        public void setBook(String title) {
+            this.book.set(title);
+        }
+        public String getId() {
+            return id.get();
+        }
+        public SimpleStringProperty idProperty() {
+            return id;
+        }
+        public void setId(String id) {
+            this.id.set(id);
+        }
+
+        Book(String id, String book){
+            this.id = new SimpleStringProperty(id);
+            this.book = new SimpleStringProperty(book);
+        }
     }
 }

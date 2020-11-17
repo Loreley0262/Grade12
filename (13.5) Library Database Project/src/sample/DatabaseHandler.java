@@ -16,7 +16,6 @@ public class DatabaseHandler {
         createConnection();
         createMemberTable();
         createBookTable();
-        createWithdrawTable();
     }
 
 
@@ -45,7 +44,8 @@ public class DatabaseHandler {
                         "id varchar (200) primary key, \n" +
                         "name varchar (200), \n" +
                         "email varchar (200), \n" +
-                        "nickName varchar (200))";
+                        "nickName varchar (200), \n" +
+                        "hasbook varchar (200))";
                 System.out.println(statement);
                 stmt.execute(statement);
             }
@@ -67,7 +67,8 @@ public class DatabaseHandler {
             else{
                 String statement = "CREATE TABLE " + TABLE_NAME +"(" +
                         "id varchar (200) primary key, \n" +
-                        "book varchar (200))";
+                        "book varchar (200), \n" +
+                        "borrowing varchar (200))";
                 System.out.println(statement);
                 stmt.execute(statement);
             }
@@ -77,28 +78,6 @@ public class DatabaseHandler {
         }
     }
 
-    private void createWithdrawTable() {
-        String TABLE_NAME = "WITHDRAWAL";
-        try{
-            stmt = conn.createStatement();
-            DatabaseMetaData dmn = conn.getMetaData();
-            ResultSet tables = dmn.getTables(null, null, TABLE_NAME, null);
-            if (tables.next()){
-                System.out.println("Table " + TABLE_NAME + " already exists.");
-            }
-            else{
-                String statement = "CREATE TABLE " + TABLE_NAME +"(" +
-                        "name varchar (200) primary key, \n" +
-                        "book varchar (200))";
-                System.out.println(statement);
-                stmt.execute(statement);
-            }
-        }
-        catch (SQLException e){
-            System.out.println("aaaaa");
-            System.out.println(e.getMessage() + "setting up database");
-        }
-    }
 
     public boolean execAction(String qu){
         try{

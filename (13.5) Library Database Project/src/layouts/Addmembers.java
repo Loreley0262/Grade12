@@ -44,7 +44,8 @@ public class Addmembers implements Initializable{
                 "'" + id + "'," +
                 "'" + name + "'," +
                 "'" + email + "'," +
-                "'" + nick + "'" + ")";
+                "'" + nick + "'," +
+                "'" + nick + "')";
         System.out.println(st);
         if(handler.execAction(st)){
             Alert alert = new Alert(Alert.AlertType.INFORMATION);

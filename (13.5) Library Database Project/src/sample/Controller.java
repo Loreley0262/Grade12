@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -19,6 +20,9 @@ public class Controller implements Initializable {
     public Button btnAddBook;
     public Button btnExit;
     public Button display;
+    public Button btnClearMemberTable;
+    public Button btnClearBookTable;
+    public DatabaseHandler handler;
 
     void loadWindow (String location, String title){
         try{
@@ -48,13 +52,45 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        handler = DatabaseHandler.getHandler();
         System.out.println("Runs when window is open");
     }
 
-    public void exitWindow(ActionEvent actionEvent) {
-        Stage stage = (Stage) btnExit.getScene().getWindow();
-        stage.close();
+
+    public void clearMemberTable(ActionEvent actionEvent) {
+        String st = "DELETE FROM MEMBER";
+
+        System.out.println("MEMBER table cleared.");
+        if(handler.execAction(st)){
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setContentText("Saved");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Error with imputing data");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
     }
 
+    public void clearBookTable(ActionEvent actionEvent) {
+        String st = "DELETE FROM BOOK";
+
+        System.out.println("BOOK table cleared.");
+        if(handler.execAction(st)){
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setContentText("Saved");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Error with imputing data");
+            alert.setHeaderText(null);
+            alert.showAndWait();
+        }
+    }
 
 }

@@ -39,7 +39,8 @@ public class Addbook implements Initializable{
         }
         String st = "INSERT INTO BOOK VALUES (" +
                 "'" + id + "'," +
-                "'" + title + "'" + ")";
+                "'" + title + "'," +
+                "'false'" + ")";
         System.out.println(st);
         if(handler.execAction(st)){
             Alert alert = new Alert(Alert.AlertType.INFORMATION);

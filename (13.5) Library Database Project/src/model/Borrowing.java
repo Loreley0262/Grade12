@@ -4,7 +4,7 @@ public class Borrowing {
     String title;
     String id;
 
-    Borrowing (String id, String title){
+    public Borrowing(String id, String title){
         this.id = id;
         this.title = title;
     }

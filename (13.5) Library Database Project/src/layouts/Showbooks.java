@@ -42,13 +42,11 @@ public class Showbooks implements Initializable {
             book.add(new Showbooks.Book(id, title));
         }
         bookTable.getItems().setAll(book);
-        System.out.println("load");
     }
 
     private void initCol() {
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colBook.setCellValueFactory(new PropertyValueFactory<>("book"));
-        System.out.println("col");
     }
 
     public static class Book{

@@ -2,22 +2,16 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.Withdrawal">
    <children>
-      <ListView fx:id="listMembers" layoutX="14.0" layoutY="64.0" prefHeight="314.0" prefWidth="200.0" />
-      <ListView fx:id="listBooks" layoutX="230.0" layoutY="64.0" prefHeight="314.0" prefWidth="200.0" />
       <Button fx:id="btnSubmit" layoutX="465.0" layoutY="312.0" mnemonicParsing="false" onAction="#withdrawBook" prefHeight="42.0" prefWidth="90.0" text="SUBMIT" />
-      <Label layoutX="46.0" layoutY="20.0" prefHeight="35.0" prefWidth="116.0" text="MEMBERS">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Label>
-      <Label layoutX="292.0" layoutY="20.0" text="BOOKS">
+      <Label layoutX="17.0" layoutY="22.0" text="Available Books">
          <font>
             <Font size="24.0" />
          </font>
@@ -32,8 +26,24 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="getMemberName" layoutX="436.0" layoutY="130.0" promptText="Member Name" />
+      <TextField fx:id="getMemberId" layoutX="436.0" layoutY="130.0" promptText="Member Name" />
       <TextField fx:id="getBookTitle" layoutX="436.0" layoutY="243.0" promptText="Book Title" />
-      <Button fx:id="btnShow" layoutY="2.0" mnemonicParsing="false" onAction="#show" prefHeight="383.0" prefWidth="600.0" styleClass="jfx-button" stylesheets="@style.css" text="SHOW" />
+      <Label layoutX="233.0" layoutY="22.0" text="Available People">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="bookTable" layoutX="7.0" layoutY="68.0" prefHeight="321.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="colBookId" minWidth="50.0" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colBookTitle" minWidth="124.0" prefWidth="75.0" text="Title" />
+        </columns>
+      </TableView>
+      <TableView fx:id="memberTable" layoutX="220.0" layoutY="68.0" prefHeight="321.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="colMemberId" minWidth="50.0" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="colMemberName" minWidth="124.0" prefWidth="75.0" text="Name" />
+         </columns>
+      </TableView>
    </children>
 </AnchorPane>

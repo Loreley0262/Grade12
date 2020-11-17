@@ -37,7 +37,6 @@ public class ShowMembers implements Initializable {
             members.add(new ShowMembers.Member(name, id, email, nick));
         }
         memberTable.getItems().setAll(members);
-        System.out.println("load");
     }
 
     private void initCol() {
@@ -45,7 +44,6 @@ public class ShowMembers implements Initializable {
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
         colNick.setCellValueFactory(new PropertyValueFactory<>("nickName"));
-        System.out.println("col");
     }
 
 
@@ -54,6 +52,7 @@ public class ShowMembers implements Initializable {
         private final SimpleStringProperty id;
         private final SimpleStringProperty email;
         private final SimpleStringProperty nickName;
+
 
         public String getName() {
             return name.get();
@@ -98,6 +97,7 @@ public class ShowMembers implements Initializable {
             this.email = new SimpleStringProperty(email);
             this.nickName = new SimpleStringProperty(nickName);
         }
+
     }
 
     public DatabaseHandler handler;
