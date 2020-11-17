@@ -241,7 +241,7 @@
       <workItem from="1605571097526" duration="8790000" />
       <workItem from="1605581797531" duration="6089000" />
       <workItem from="1605644303745" duration="635000" />
-      <workItem from="1605648205860" duration="5474000" />
+      <workItem from="1605648205860" duration="5926000" />
     </task>
     <servers />
   </component>
@@ -292,25 +292,25 @@
     </state>
     <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605652174133" />
     <state x="473" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605644934725" />
-    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1605653663690">
+    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1605653846797">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605653663690" />
+    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605653846797" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
-    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1605653663690">
+    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1605653846797">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605653663690" />
+    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605653846797" />
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
-    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1605653663690">
+    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1605653846797">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605653663690" />
+    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605653846797" />
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
-    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1605653663690">
+    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1605653846797">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605653663690" />
+    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605653846797" />
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1605653191557">
       <screen x="0" y="0" width="1440" height="860" />
@@ -349,19 +349,5 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="0" y="0" width="1033" height="607" key="dock-window-1/0.0.1440.860@0.0.1440.860" timestamp="1605563864338" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/layouts/Withdrawal.java</url>
-          <line>76</line>
-          <properties class="layouts.Withdrawal" method="withdrawBook">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

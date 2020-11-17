@@ -92,7 +92,7 @@ public class Withdrawal implements Initializable {
                 "SET hasbook = 'true'\n" +
                 "WHERE ID = '" + id + "'";
 //UPDATE MEMBER SET hasbook = 'true' WHERE ID = 'a'
-        
+
         System.out.println(st);
 
         if(handler.execAction(st)){
@@ -107,6 +107,7 @@ public class Withdrawal implements Initializable {
             alert.setHeaderText(null);
             alert.showAndWait();
         }
+        
     }
     public static class Member{
         private final SimpleStringProperty id;
