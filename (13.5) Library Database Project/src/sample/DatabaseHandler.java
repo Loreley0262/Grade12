@@ -89,7 +89,7 @@ public class DatabaseHandler {
             else{
                 String statement = "CREATE TABLE " + TABLE_NAME +"(" +
                         "name varchar (200) primary key, \n" +
-                        "title varchar (200))";
+                        "book varchar (200))";
                 System.out.println(statement);
                 stmt.execute(statement);
             }

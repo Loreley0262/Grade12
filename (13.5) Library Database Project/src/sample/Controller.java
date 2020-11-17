@@ -39,11 +39,11 @@ public class Controller implements Initializable {
     public void addBookWindow(ActionEvent actionEvent) {
         loadWindow("../layouts/addbook.fxml", "Add Book");
     }
-    public void showMembersWindow(ActionEvent actionEvent) {
-        loadWindow("../layouts/showmembers.fxml", "title");
+    public void showDisplayWindow(ActionEvent actionEvent) {
+        loadWindow("../layouts/display.fxml", "title");
     }
-    public void showWithdrawlWindow(ActionEvent actionEvent) {
-        loadWindow("../layouts/showmembers.fxml", "title");
+    public void showWithdrawalWindow(ActionEvent actionEvent) {
+        loadWindow("../layouts/withdrawal.fxml", "title");
     }
 
     @Override

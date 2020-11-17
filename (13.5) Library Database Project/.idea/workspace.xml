@@ -20,14 +20,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/layouts/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/display.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Borrowing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3768e1dc-b9d8-4d9f-ac0b-86c42c1b4730.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3768e1dc-b9d8-4d9f-ac0b-86c42c1b4730.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/forum/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/forum/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/forum/log/log2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/log/log2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/log/log3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/log3.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/forum/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c10.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c241.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c251.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c251.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c4a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c4b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c4c1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c4f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c501.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/forum/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/forum/seg0/cf0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/ShowMembers$Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/ShowMembers$Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/ShowMembers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/ShowMembers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/Showbooks$Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/Showbooks$Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/Showbooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/Showbooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/Withdrawal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/Withdrawal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/showMembers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/showMembers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/showbooks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/layouts/showbooks.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/sample/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/(13.5) Library Database Project/sample/DatabaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/ShowMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/ShowMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Showbooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Showbooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Withdrawal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Withdrawal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/showMembers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/showMembers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/showbooks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/showbooks.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/withdrawal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/withdrawal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DatabaseHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +296,8 @@
       <workItem from="1605377545461" duration="43131000" />
       <workItem from="1605561406017" duration="3966000" />
       <workItem from="1605565398773" duration="2232000" />
+      <workItem from="1605571097526" duration="8790000" />
+      <workItem from="1605581797531" duration="6089000" />
     </task>
     <servers />
   </component>
@@ -277,35 +330,40 @@
     </state>
     <state x="545" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1605567242255" />
     <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605491313194" />
+    <state x="271" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605579868681">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="271" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1605579868681" />
     <state x="477" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605562681716">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="477" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1605562681716" />
     <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1605486559827" />
-    <state x="426" y="171" key="FileChooserDialogImpl" timestamp="1605564549964">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="473" y="171" key="FileChooserDialogImpl" timestamp="1605586144405">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="426" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1605564549964" />
-    <state width="1397" height="211" key="GridCell.Tab.0.bottom" timestamp="1605567623305">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="473" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605586144405" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1605631504466">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="211" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605567623305" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605559675191" />
-    <state width="1397" height="211" key="GridCell.Tab.0.center" timestamp="1605567623305">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1605631504466">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="211" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605567623305" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605559675191" />
-    <state width="1397" height="211" key="GridCell.Tab.0.left" timestamp="1605567623305">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1605631504466">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="211" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605567623305" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605559675191" />
-    <state width="1397" height="211" key="GridCell.Tab.0.right" timestamp="1605567623305">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1605631504466">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1397" height="211" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605567623305" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605559675191" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605631504466" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605307317260">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -314,10 +372,15 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="200" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1605307060727" />
-    <state x="580" y="302" width="316" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605566871109">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="644" y="302" width="316" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605581644204">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="302" width="316" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.860@0.0.1440.860" timestamp="1605566871109" />
+    <state x="644" y="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.860@0.0.1600.860" timestamp="1605581644204" />
+    <state x="596" y="233" width="408" height="389" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605581586670">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="596" y="233" width="408" height="389" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1600.860@0.0.1600.860" timestamp="1605581586670" />
     <state x="0" y="0" width="1033" height="607" key="dock-window-1" timestamp="1605563864338">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

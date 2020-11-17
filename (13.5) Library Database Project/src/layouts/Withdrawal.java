@@ -10,6 +10,7 @@ import sample.DatabaseHandler;
 
 import java.net.URL;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class Withdrawal implements Initializable {
@@ -19,22 +20,14 @@ public class Withdrawal implements Initializable {
     public ListView listMembers;
     public TextField getMemberName;
     public TextField getBookTitle;
+    public Button btnShow;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         handler = DatabaseHandler.getHandler();
-        String qu = "SELECT * FROM MEMBER";
-        ResultSet rs = handler.execQuery(qu);
-//        while (rs.next()){
-//            String name = rs.getString("name");
-//            String id = rs.getString("id");
-//            String email = rs.getString("email");
-//            String nick = rs.getString("nickName");
-//            members.add(new Showmembers.Member(name, id, email, nick));
-//        }
-//        memberTable.getItems().setAll(members);
-//        System.out.println("load");
+
     }
+
 
     public void withdrawBook(ActionEvent actionEvent) {
         String name = getMemberName.getText();
@@ -67,5 +60,21 @@ public class Withdrawal implements Initializable {
             alert.setHeaderText(null);
             alert.showAndWait();
         }
+    }
+
+    public void show(ActionEvent actionEvent) throws SQLException {
+        String qu = "SELECT * FROM MEMBER";
+        String qq = "SELECT * FROM BOOK";
+        ResultSet rs = handler.execQuery(qu);
+        while (rs.next()){
+            String name = rs.getString("name");
+            String id = rs.getString("id");
+            String email = rs.getString("email");
+            String nick = rs.getString("nickName");
+            members.add(new Showmembers.Member(name, id, email, nick));
+        }
+        memberTable.getItems().setAll(members);
+        System.out.println("load");
+        btnShow.setVisible(false);
     }
 }

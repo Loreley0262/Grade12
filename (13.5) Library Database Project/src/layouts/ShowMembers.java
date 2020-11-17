@@ -14,7 +14,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-public class Showmembers implements Initializable {
+public class ShowMembers implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         initCol();
@@ -34,7 +34,7 @@ public class Showmembers implements Initializable {
             String id = rs.getString("id");
             String email = rs.getString("email");
             String nick = rs.getString("nickName");
-            members.add(new Showmembers.Member(name, id, email, nick));
+            members.add(new ShowMembers.Member(name, id, email, nick));
         }
         memberTable.getItems().setAll(members);
         System.out.println("load");
@@ -53,7 +53,7 @@ public class Showmembers implements Initializable {
         private final SimpleStringProperty name;
         private final SimpleStringProperty id;
         private final SimpleStringProperty email;
-        private final SimpleStringProperty nick;
+        private final SimpleStringProperty nickName;
 
         public String getName() {
             return name.get();
@@ -82,21 +82,21 @@ public class Showmembers implements Initializable {
         public void setEmail(String email) {
             this.email.set(email);
         }
-        public String getNick() {
-            return nick.get();
+        public String getNickName() {
+            return nickName.get();
         }
-        public SimpleStringProperty nickProperty() {
-            return nick;
+        public SimpleStringProperty nickNameProperty() {
+            return nickName;
         }
-        public void setNick(String nick) {
-            this.nick.set(nick);
+        public void setNickName(String nickName) {
+            this.nickName.set(nickName);
         }
 
-        Member(String name, String id, String email, String nick){
+        Member(String name, String id, String email, String nickName){
             this.name = new SimpleStringProperty(name);
             this.id = new SimpleStringProperty(id);
             this.email = new SimpleStringProperty(email);
-            this.nick = new SimpleStringProperty(nick);
+            this.nickName = new SimpleStringProperty(nickName);
         }
     }
 

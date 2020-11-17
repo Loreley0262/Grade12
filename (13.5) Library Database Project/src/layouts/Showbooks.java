@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 
 public class Showbooks implements Initializable {
     public DatabaseHandler handler;
-    public TableColumn colTitle;
+    public TableColumn colBook;
     public TableColumn colId;
     public ObservableList<Showbooks.Book> book = FXCollections.observableArrayList();
     public TableView bookTable;
@@ -47,23 +47,23 @@ public class Showbooks implements Initializable {
 
     private void initCol() {
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
-        colTitle.setCellValueFactory(new PropertyValueFactory<>("book"));
+        colBook.setCellValueFactory(new PropertyValueFactory<>("book"));
         System.out.println("col");
     }
 
     public static class Book{
         private final SimpleStringProperty id;
-        private final SimpleStringProperty title;
+        private final SimpleStringProperty book;
 
 
-        public String getTitle() {
-            return title.get();
+        public String getBook() {
+            return book.get();
         }
-        public SimpleStringProperty titleProperty() {
-            return title;
+        public SimpleStringProperty bookProperty() {
+            return book;
         }
-        public void setTitle(String title) {
-            this.title.set(title);
+        public void setBook(String title) {
+            this.book.set(title);
         }
         public String getId() {
             return id.get();
@@ -75,9 +75,9 @@ public class Showbooks implements Initializable {
             this.id.set(id);
         }
 
-        Book(String id, String title){
+        Book(String id, String book){
             this.id = new SimpleStringProperty(id);
-            this.title = new SimpleStringProperty(title);
+            this.book = new SimpleStringProperty(book);
         }
     }
 }
