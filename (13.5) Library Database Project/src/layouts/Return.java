@@ -15,7 +15,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-public class Withdrawal implements Initializable {
+public class Return implements Initializable {
     static DatabaseHandler handler;
     public Button btnSubmit;
     public TextField getMemberId;
@@ -25,10 +25,8 @@ public class Withdrawal implements Initializable {
     public TableView memberTable;
     public ObservableList<Return.Member> members = FXCollections.observableArrayList();
     public ObservableList<Return.Book> books = FXCollections.observableArrayList();
-    public TableColumn colBookId;
-    public TableColumn colBookTitle;
-    public TableColumn colMemberId;
-    public TableColumn colMemberName;
+
+    public Label btnReturn;
 
 
     @Override
@@ -42,10 +40,10 @@ public class Withdrawal implements Initializable {
     }
 
     private void initCol() {
-        colBookId.setCellValueFactory(new PropertyValueFactory<>("id"));
-        colBookTitle.setCellValueFactory(new PropertyValueFactory<>("book"));
-        colMemberId.setCellValueFactory(new PropertyValueFactory<>("id"));
-        colMemberName.setCellValueFactory(new PropertyValueFactory<>("name"));
+//        colBookId.setCellValueFactory(new PropertyValueFactory<>("id"));
+//        colBookTitle.setCellValueFactory(new PropertyValueFactory<>("book"));
+//        colMemberId.setCellValueFactory(new PropertyValueFactory<>("id"));
+//        colMemberName.setCellValueFactory(new PropertyValueFactory<>("name"));
     }
     private void loadData() throws SQLException {
         handler = DatabaseHandler.getHandler();
@@ -74,7 +72,7 @@ public class Withdrawal implements Initializable {
     }
 
 
-    public void withdrawBook(ActionEvent actionEvent) throws SQLException {
+    public void returnBook(ActionEvent actionEvent) throws SQLException {
         String id = getMemberId.getText();
         String title = getBookTitle.getText();
         System.out.println(id);
@@ -89,7 +87,7 @@ public class Withdrawal implements Initializable {
         }
 
         String st = "UPDATE MEMBER \n" +
-                "SET hasbook = 'true'\n" +
+                "SET hasbook = 'false'\n" +
                 "WHERE ID = '" + id + "'";
 //UPDATE MEMBER SET hasbook = 'true' WHERE ID = 'a'
 
@@ -107,7 +105,7 @@ public class Withdrawal implements Initializable {
             alert.setHeaderText(null);
             alert.showAndWait();
         }
-        
+
     }
     public static class Member{
         private final SimpleStringProperty id;

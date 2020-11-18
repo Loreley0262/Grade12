@@ -46,8 +46,8 @@ public class Controller implements Initializable {
     public void showDisplayWindow(ActionEvent actionEvent) {
         loadWindow("../layouts/display.fxml", "title");
     }
-    public void showWithdrawalWindow(ActionEvent actionEvent) {
-        loadWindow("../layouts/withdrawal.fxml", "title");
+    public void showWithdrawOrReturnWindow(ActionEvent actionEvent) {
+        loadWindow("../layouts/withdrawOrReturn.fxml", "title");
     }
 
     @Override

@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.Withdrawal">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.Return">
    <children>
-      <Button fx:id="btnSubmit" layoutX="465.0" layoutY="312.0" mnemonicParsing="false" onAction="#withdrawBook" prefHeight="42.0" prefWidth="90.0" text="SUBMIT" />
+      <Button fx:id="btnSubmit" layoutX="457.0" layoutY="284.0" mnemonicParsing="false" onAction="#withdrawBook" prefHeight="35.0" prefWidth="99.0" text="Withdraw" />
       <Label layoutX="17.0" layoutY="22.0" text="Available Books">
          <font>
             <Font size="24.0" />
@@ -21,13 +21,13 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="471.0" layoutY="204.0" prefHeight="35.0" prefWidth="84.0" text="Book ID">
+      <Label layoutX="479.0" layoutY="165.0" prefHeight="35.0" prefWidth="67.0" text="Book ID">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
       <TextField fx:id="getMemberId" layoutX="436.0" layoutY="130.0" promptText="Member Name" />
-      <TextField fx:id="getBookTitle" layoutX="436.0" layoutY="243.0" promptText="Book Title" />
+      <TextField fx:id="getBookTitle" layoutX="436.0" layoutY="216.0" promptText="Book Title" />
       <Label layoutX="233.0" layoutY="22.0" text="Available People">
          <font>
             <Font size="24.0" />

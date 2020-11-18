@@ -31,7 +31,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#showWithdrawalWindow" prefHeight="99.0" prefWidth="129.0" text="Withdraw Book" textAlignment="CENTER">
+            <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#showWithdrawOrReturnWindow" prefHeight="99.0" prefWidth="129.0" text="Withdraw or Return" textAlignment="CENTER">
                <graphic>
                   <ImageView fitHeight="62.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                      <image>
